@@ -1,0 +1,101 @@
+<script setup lang="ts">
+import { ref, onMounted } from 'vue';
+import { useMatcherStore } from './store/matcher';
+import { 
+  Zap, 
+  Cpu, 
+  ArrowRightLeft, 
+  Upload, 
+  CheckCircle2, 
+  History,
+  Settings2,
+  Share2,
+  Trash2
+} from 'lucide-vue-next';
+
+import * as XLSX from 'xlsx';
+import testerData from './assets/tester_interface.json';
+import type { PinType } from './types/matcher';
+
+const store = useMatcherStore();
+const activeStep = ref(1);
+const bmsFileInput = ref<HTMLInputElement | null>(null);
+const bmsHeaders = ref<string[]>(['连接器', '脚位', '信号定义', '功能描述']);
+
+// 从 Excel 导入初始数据
+onMounted(() => {
+  const filteredTesterPins = (testerData as any[]).filter(p => p.originalPin !== '脚位');
+  store.setTesterPins(filteredTesterPins);
+
+  // 默认加载示例数据
+  store.setBmsPins([
+    { id: 'b1', name: 'POWER+', type: 'UNKNOWN' as PinType, tags: ['CON8'], description: '主电源正极 (Pin 2, 18)', rawRow: { '连接器': 'CON8', '脚位': '2, 18', '信号定义': 'POWER+', '功能描述': '主电源正极' } },
+    { id: 'b2', name: 'PWOER1-', type: 'UNKNOWN' as PinType, tags: ['CON8'], description: '主电源负极 (Pin 1, 17)', rawRow: { '连接器': 'CON8', '脚位': '1, 17', '信号定义': 'PWOER1-', '功能描述': '主电源负极' } },
+    { id: 'b3', name: 'WAKE1', type: 'UNKNOWN' as PinType, tags: ['CON8'], description: '唤醒信号 1 (Pin 19)', rawRow: { '连接器': 'CON8', '脚位': '19', '信号定义': 'WAKE1', '功能描述': '唤醒信号 1' } },
+    { id: 'b4', name: 'WAKE2', type: 'UNKNOWN' as PinType, tags: ['CON8'], description: '唤醒信号 2 (Pin 6)', rawRow: { '连接器': 'CON8', '脚位': '6', '信号定义': 'WAKE2', '功能描述': '唤醒信号 2' } },
+    { id: 'b5', name: 'B1+', type: 'UNKNOWN' as PinType, tags: ['CELL'], description: '电芯1正极采样 (需要V1+/S1+)', rawRow: { '连接器': 'CELL', '脚位': 'A1', '信号定义': 'B1+', '功能描述': '电芯1正极采样' } },
+    { id: 'b6', name: 'B1-', type: 'UNKNOWN' as PinType, tags: ['CELL'], description: '电芯1负极采样 (需要V1-/S1-)', rawRow: { '连接器': 'CELL', '脚位': 'A2', '信号定义': 'B1-', '功能描述': '电芯1负极采样' } },
+    { id: 'b7', name: 'POWER+', type: 'UNKNOWN' as PinType, tags: ['CON10'], description: '冗余电源输入', rawRow: { '连接器': 'CON10', '脚位': '1', '信号定义': 'POWER+', '功能描述': '冗余电源输入' } },
+  ]);
+});
+
+const triggerBmsImport = () => {
+  bmsFileInput.value?.click();
+};
+
+const handleBmsImport = (event: Event) => {
+  const file = (event.target as HTMLInputElement).files?.[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    const data = e.target?.result;
+    const workbook = XLSX.read(data, { type: 'binary' });
+    const sheetName = workbook.SheetNames[0];
+    const worksheet = workbook.Sheets[sheetName];
+    const json = XLSX.utils.sheet_to_json(worksheet) as any[];
+
+    if (json.length > 0) {
+      bmsHeaders.value = Object.keys(json[0]);
+    }
+
+    const newBmsPins = json.map((row, index) => {
+      const nameKey = Object.keys(row).find(key => 
+        ['信号', '名称', 'name', 'signal', 'definition'].some(k => key.toLowerCase().includes(k))
+      ) || Object.keys(row)[0];
+
+      return {
+        id: `bms_imported_${index}`,
+        name: String(row[nameKey] || ''),
+        type: 'UNKNOWN' as PinType,
+        tags: [String(row[Object.keys(row)[0]] || 'DUT')],
+        description: '',
+        rawRow: row
+      };
+    });
+
+    store.setBmsPins(newBmsPins);
+    activeStep.value = 1;
+    store.clearMatches();
+  };
+  reader.readAsBinaryString(file);
+};
+
+const handleAutoMatch = async () => {
+  await store.autoMatch();
+  activeStep.value = 2;
+};
+
+const getMatch = (id: string, side: 'tester' | 'bms' = 'tester') => {
+  if (side === 'tester') return store.matches.find(m => m.testerPinId === id);
+  return store.matches.find(m => m.bmsPinId === id);
+};
+
+const getBmsPinById = (id: string) => {
+  return store.bmsPins.find(p => p.id === id);
+};
+
+const getTesterPin = (id: string) => {
+  return store.testerPins.find(p => p.id === id);
+};
+</script>

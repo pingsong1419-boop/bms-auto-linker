@@ -1,0 +1,5512 @@
+[
+  {
+    "id": "T_1#120pin连接器_A_0",
+    "name": "POWER+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "A",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AA_1",
+    "name": "CHGCANL",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BA_2",
+    "name": "GND",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DA_3",
+    "name": "分流器温感1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EA_4",
+    "name": "8#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_B_5",
+    "name": "RELAY_POWER+（DCDC电源+）",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "B",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AB_6",
+    "name": "CHGCANG",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BB_7",
+    "name": "TMS",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DB_8",
+    "name": "分流器温感2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EB_9",
+    "name": "9#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_C_10",
+    "name": "WAKE1",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "C",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AC_11",
+    "name": "预留CANH",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BC_12",
+    "name": "TCK",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DC_13",
+    "name": "分流器温感2-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EC_14",
+    "name": "9#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_D_15",
+    "name": "WAKE2",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "D",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AD_16",
+    "name": "预留CANL",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BD_17",
+    "name": "TDO",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DD_18",
+    "name": "预留可编程电阻1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_ED_19",
+    "name": "10#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "ED",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_E_20",
+    "name": "WAKE3",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "E",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BE_21",
+    "name": "TRST_N",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DE_22",
+    "name": "预留可编程电阻1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EE_23",
+    "name": "10#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_F_24",
+    "name": "WAKE4",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "F",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AF_25",
+    "name": "DC-CrashSignal-In",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BF_26",
+    "name": "PORST_N",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DF_27",
+    "name": "预留可编程电阻2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EF_28",
+    "name": "11#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_H_29",
+    "name": "WAKE5",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "H",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AH_30",
+    "name": "DC-CrashSignal-Out",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DH_31",
+    "name": "预留可编程电阻2-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EH_32",
+    "name": "11#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_J_33",
+    "name": "WAKE6",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "J",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AJ_34",
+    "name": "PYRO_PRM+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BJ_35",
+    "name": "高精度信号发生器输出1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DJ_36",
+    "name": "1#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EJ_37",
+    "name": "12#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_K_38",
+    "name": "WAKE7",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "K",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AK_39",
+    "name": "PYRO_PRM-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BK_40",
+    "name": "高精度信号发生器输出1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DK_41",
+    "name": "1#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EK_42",
+    "name": "12#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_L_43",
+    "name": "WAKE8",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "L",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AL_44",
+    "name": "PYRO_SEC+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BL_45",
+    "name": "高精度信号发生器输出2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CL_46",
+    "name": "主机NTC1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DL_47",
+    "name": "2#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_M_48",
+    "name": "WAKE9",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "M",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AM_49",
+    "name": "PYRO_SEC-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BM_50",
+    "name": "高精度信号发生器输出2-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CM_51",
+    "name": "主机NTC1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DM_52",
+    "name": "2#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_N_53",
+    "name": "PWOER1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "N",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BN_54",
+    "name": "高精度信号发生器输出3+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CN_55",
+    "name": "主机NTC2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DN_56",
+    "name": "3#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_P_57",
+    "name": "PWOER2-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "P",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BP_58",
+    "name": "高精度信号发生器输出3-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CP_59",
+    "name": "主机NTC2-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DP_60",
+    "name": "3#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_R_61",
+    "name": "PWOER3-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "R",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BR_62",
+    "name": "高精度信号发生器输出4+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CR_63",
+    "name": "主机NTC3+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DR_64",
+    "name": "4#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_S_65",
+    "name": "PWOER4-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "S",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BS_66",
+    "name": "高精度信号发生器输出4-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CS_67",
+    "name": "主机NTC3-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DS_68",
+    "name": "4#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_T_69",
+    "name": "INCANH",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "T",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AT_70",
+    "name": "CC1",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CT_71",
+    "name": "主机NTC4+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DT_72",
+    "name": "5#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_U_73",
+    "name": "INCANL",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "U",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AU_74",
+    "name": "CHAOJI_CC1",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CU_75",
+    "name": "主机NTC4-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DU_76",
+    "name": "5#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_V_77",
+    "name": "INCANG",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "V",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AV_78",
+    "name": "CC",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CV_79",
+    "name": "主机NTC5+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DV_80",
+    "name": "6#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_W_81",
+    "name": "VECANH",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "W",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AW_82",
+    "name": "CC2",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CW_83",
+    "name": "主机NTC5-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DW_84",
+    "name": "6#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_X_85",
+    "name": "VECANL",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "X",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AX_86",
+    "name": "CP",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CX_87",
+    "name": "主机NTC6+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DX_88",
+    "name": "7#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_Y_89",
+    "name": "VECANG",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "Y",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AY_90",
+    "name": "PWMG",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CY_91",
+    "name": "主机NTC6-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DY_92",
+    "name": "7#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_Z_93",
+    "name": "CHGCANH",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "Z",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AZ_94",
+    "name": "5V",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CZ_95",
+    "name": "分流器温感1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DZ_96",
+    "name": "8#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_A_97",
+    "name": "13#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "A",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AA_98",
+    "name": "24#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BA_99",
+    "name": "从机NTC7+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CA_100",
+    "name": "从机NTC18+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DA_101",
+    "name": "29#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EA_102",
+    "name": "PLC输出4",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EA",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_B_103",
+    "name": "13#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "B",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AB_104",
+    "name": "24#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BB_105",
+    "name": "从机NTC7-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CB_106",
+    "name": "从机NTC18-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DB_107",
+    "name": "29#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EB_108",
+    "name": "24V-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_C_109",
+    "name": "14#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "C",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AC_110",
+    "name": "25#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BC_111",
+    "name": "从机NTC8+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CC_112",
+    "name": "从机NTC19+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DC_113",
+    "name": "30#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EC_114",
+    "name": "24V+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_D_115",
+    "name": "14#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "D",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AD_116",
+    "name": "25#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BD_117",
+    "name": "从机NTC8-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CD_118",
+    "name": "从机NTC19-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DD_119",
+    "name": "30#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_ED_120",
+    "name": "485+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "ED",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_E_121",
+    "name": "15#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "E",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AE_122",
+    "name": "26#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BE_123",
+    "name": "从机NTC9+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CE_124",
+    "name": "从机NTC20+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DE_125",
+    "name": "31#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EE_126",
+    "name": "485-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_F_127",
+    "name": "15#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "F",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AF_128",
+    "name": "26#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BF_129",
+    "name": "从机NTC9-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CF_130",
+    "name": "从机NTC20-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DF_131",
+    "name": "31#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EF_132",
+    "name": "POWER+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_H_133",
+    "name": "16#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "H",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AH_134",
+    "name": "27#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BH_135",
+    "name": "从机NTC10+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CH_136",
+    "name": "从机NTC21+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DH_137",
+    "name": "32#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EH_138",
+    "name": "WAKE1",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_J_139",
+    "name": "16#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "J",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AJ_140",
+    "name": "27#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BJ_141",
+    "name": "从机NTC10-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CJ_142",
+    "name": "从机NTC21-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DJ_143",
+    "name": "32#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EJ_144",
+    "name": "PWOER1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_K_145",
+    "name": "17#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "K",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AK_146",
+    "name": "28#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BK_147",
+    "name": "从机NTC11+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CK_148",
+    "name": "从机NTC22+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DK_149",
+    "name": "33#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EK_150",
+    "name": "INCANH",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_L_151",
+    "name": "17#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "L",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AL_152",
+    "name": "28#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BL_153",
+    "name": "从机NTC11-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CL_154",
+    "name": "从机NTC22-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DL_155",
+    "name": "33#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_EL_156",
+    "name": "INCANL",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "EL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_M_157",
+    "name": "18#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "M",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AM_158",
+    "name": "从机NTC1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BM_159",
+    "name": "从机NTC12+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CM_160",
+    "name": "从机NTC23+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DM_161",
+    "name": "34#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_N_162",
+    "name": "18#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "N",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AN_163",
+    "name": "从机NTC1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BN_164",
+    "name": "从机NTC12-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CN_165",
+    "name": "从机NTC23-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DN_166",
+    "name": "34#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_P_167",
+    "name": "19#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "P",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AP_168",
+    "name": "从机NTC2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BP_169",
+    "name": "从机NTC13+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CP_170",
+    "name": "从机NTC24+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DP_171",
+    "name": "PLC输出6",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_R_172",
+    "name": "19#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "R",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AR_173",
+    "name": "从机NTC2-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BR_174",
+    "name": "从机NTC13-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CR_175",
+    "name": "从机NTC24-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DR_176",
+    "name": "PLC输出7",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_S_177",
+    "name": "20#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "S",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AS_178",
+    "name": "从机NTC3+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BS_179",
+    "name": "从机NTC14+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CS_180",
+    "name": "从机NTC25+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DS_181",
+    "name": "PLC输入1",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_T_182",
+    "name": "20#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "T",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AT_183",
+    "name": "从机NTC3-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BT_184",
+    "name": "从机NTC14-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CT_185",
+    "name": "从机NTC25-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DT_186",
+    "name": "PLC输入2",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_U_187",
+    "name": "21#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "U",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AU_188",
+    "name": "从机NTC4+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BU_189",
+    "name": "从机NTC15+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CU_190",
+    "name": "从机NTC26+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DU_191",
+    "name": "PLC输入3",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_V_192",
+    "name": "21#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "V",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AV_193",
+    "name": "从机NTC4-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BV_194",
+    "name": "从机NTC15-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CV_195",
+    "name": "从机NTC26-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DV_196",
+    "name": "PLC输入4",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_W_197",
+    "name": "22#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "W",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AW_198",
+    "name": "从机NTC5+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BW_199",
+    "name": "从机NTC16+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CW_200",
+    "name": "从机NTC27+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DW_201",
+    "name": "PLC输入5",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_X_202",
+    "name": "22#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "X",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AX_203",
+    "name": "从机NTC5-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BX_204",
+    "name": "从机NTC16-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CX_205",
+    "name": "从机NTC27-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DX_206",
+    "name": "PLC输出1",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_Y_207",
+    "name": "23#万用表+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "Y",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AY_208",
+    "name": "从机NTC6+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BY_209",
+    "name": "从机NTC17+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CY_210",
+    "name": "从机NTC28+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DY_211",
+    "name": "PLC输出2",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_Z_212",
+    "name": "23#万用表-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "Z",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_AZ_213",
+    "name": "从机NTC6-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "AZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_BZ_214",
+    "name": "从机NTC17-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "BZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_CZ_215",
+    "name": "从机NTC28-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "CZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#120pin连接器_DZ_216",
+    "name": "PLC输出3",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "originalPin": "DZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AB_217",
+    "name": "PWM板卡检测3+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BB_218",
+    "name": "6#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CB_219",
+    "name": "PLC输出2",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CB",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_C_220",
+    "name": "PE",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "C",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AC_221",
+    "name": "PWM板卡检测3-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BC_222",
+    "name": "6#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CC_223",
+    "name": "PLC输出3",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CC",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_D_224",
+    "name": "1#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "D",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AD_225",
+    "name": "PWM板卡检测4+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BD_226",
+    "name": "HSD_OUTPUT1/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CD_227",
+    "name": "PLC输出4",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CD",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_E_228",
+    "name": "1#高压源-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "E",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AE_229",
+    "name": "PWM板卡检测4-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BE_230",
+    "name": "HSD_OUTPUT2/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CE_231",
+    "name": "24V-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CE",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_F_232",
+    "name": "2#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "F",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AF_233",
+    "name": "PWM板卡输出1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BF_234",
+    "name": "HSD_OUTPUT3/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CF_235",
+    "name": "24V+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CF",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_H_236",
+    "name": "2#高压源-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "H",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AH_237",
+    "name": "PWM板卡输出1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BH_238",
+    "name": "HSD_OUTPUT4/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CH_239",
+    "name": "485+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CH",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_J_240",
+    "name": "3#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "J",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AJ_241",
+    "name": "PWM板卡输出2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BJ_242",
+    "name": "HSD_OUTPUT5/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CJ_243",
+    "name": "485-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CJ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_K_244",
+    "name": "3#高压源-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "K",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AK_245",
+    "name": "PWM板卡输出2-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BK_246",
+    "name": "HSD_OUTPUT6/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CK_247",
+    "name": "7#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CK",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_L_248",
+    "name": "4#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "L",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AL_249",
+    "name": "PWM板卡输出3+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BL_250",
+    "name": "HSD_OUTPUT7/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CL_251",
+    "name": "7#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CL",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_M_252",
+    "name": "4#高压源-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "M",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AM_253",
+    "name": "PWM板卡输出3-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BM_254",
+    "name": "HSD_OUTPUT8/高边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CM_255",
+    "name": "8#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CM",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_N_256",
+    "name": "5#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "N",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AN_257",
+    "name": "PWM板卡输出4+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BN_258",
+    "name": "LSD_OUTPUT1/低边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CN_259",
+    "name": "8#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CN",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_P_260",
+    "name": "5#高压源-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "P",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AP_261",
+    "name": "PWM板卡输出4-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BP_262",
+    "name": "LSD_OUTPUT2/低边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CP_263",
+    "name": "PLC输出5",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CP",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_R_264",
+    "name": "6#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "R",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AR_265",
+    "name": "1#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BR_266",
+    "name": "LSD_OUTPUT3/低边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CR_267",
+    "name": "PLC输出6",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CR",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_S_268",
+    "name": "6#高压源-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "S",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AS_269",
+    "name": "1#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BS_270",
+    "name": "LSD_OUTPUT4/低边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CS_271",
+    "name": "PLC输出7",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CS",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_T_272",
+    "name": "7#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "T",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AT_273",
+    "name": "2#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BT_274",
+    "name": "LSD_OUTPUT5/低边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CT_275",
+    "name": "9#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CT",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_U_276",
+    "name": "8#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "U",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AU_277",
+    "name": "2#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BU_278",
+    "name": "LSD_OUTPUT6/低边驱动",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CU_279",
+    "name": "9#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CU",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_V_280",
+    "name": "9#高压源+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "V",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AV_281",
+    "name": "3#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BV_282",
+    "name": "PLC输入1",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CV_283",
+    "name": "10#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CV",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_W_284",
+    "name": "10#高压源-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "W",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AW_285",
+    "name": "3#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BW_286",
+    "name": "PLC输入2",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_CW_287",
+    "name": "10#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "CW",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_X_288",
+    "name": "PWM板卡检测1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "X",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AX_289",
+    "name": "4#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BX_290",
+    "name": "PLC输入3",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BX",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_Y_291",
+    "name": "PWM板卡检测1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "Y",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AY_292",
+    "name": "4#机柜内部短接-",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BY_293",
+    "name": "PLC输入4",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BY",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_Z_294",
+    "name": "PWM板卡检测2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "Z",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_AZ_295",
+    "name": "5#机柜内部短接+",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "AZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_1#90pin连接器_BZ_296",
+    "name": "PLC输入5",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "originalPin": "BZ",
+    "description": "模块: 瑞萨-BMS功能测试柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_A_297",
+    "name": "V1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "A",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AA_298",
+    "name": "V11+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BA_299",
+    "name": "V22+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CA_300",
+    "name": "V33+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_DA_301",
+    "name": "V44+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "DA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_B_302",
+    "name": "S1-",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "B",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AB_303",
+    "name": "S11+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BB_304",
+    "name": "S22+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CB_305",
+    "name": "S33+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_DB_306",
+    "name": "S44+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "DB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_C_307",
+    "name": "V1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "C",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AC_308",
+    "name": "V12+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BC_309",
+    "name": "V23+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CC_310",
+    "name": "V34+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_D_311",
+    "name": "S1+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "D",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AD_312",
+    "name": "S12+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BD_313",
+    "name": "S23+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CD_314",
+    "name": "S34+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_E_315",
+    "name": "V2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "E",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AE_316",
+    "name": "V13+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BE_317",
+    "name": "V24+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CE_318",
+    "name": "V35+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_F_319",
+    "name": "S2+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "F",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AF_320",
+    "name": "S13+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BF_321",
+    "name": "S24+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CF_322",
+    "name": "S35+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_H_323",
+    "name": "V3+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "H",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AH_324",
+    "name": "V14+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BH_325",
+    "name": "V25+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CH_326",
+    "name": "V36+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_J_327",
+    "name": "S3+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "J",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AJ_328",
+    "name": "S14+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BJ_329",
+    "name": "S25+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CJ_330",
+    "name": "S36+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_K_331",
+    "name": "V4+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "K",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AK_332",
+    "name": "V15+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BK_333",
+    "name": "V26+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CK_334",
+    "name": "V37+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_L_335",
+    "name": "S4+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "L",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AL_336",
+    "name": "S15+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BL_337",
+    "name": "S26+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CL_338",
+    "name": "S37+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_M_339",
+    "name": "V5+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "M",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AM_340",
+    "name": "V16+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BM_341",
+    "name": "V27+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CM_342",
+    "name": "V38+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_N_343",
+    "name": "S5+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "N",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AN_344",
+    "name": "S16+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BN_345",
+    "name": "S27+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CN_346",
+    "name": "S38+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_P_347",
+    "name": "V6+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "P",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AP_348",
+    "name": "V17+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AP",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BP_349",
+    "name": "V28+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BP",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CP_350",
+    "name": "V39+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CP",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_R_351",
+    "name": "S6+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "R",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AR_352",
+    "name": "S17+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AR",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BR_353",
+    "name": "S28+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BR",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CR_354",
+    "name": "S39+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CR",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_S_355",
+    "name": "V7+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "S",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AS_356",
+    "name": "V18+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AS",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BS_357",
+    "name": "V29+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BS",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CS_358",
+    "name": "V40+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CS",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_T_359",
+    "name": "S7+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "T",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AT_360",
+    "name": "S18+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AT",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BT_361",
+    "name": "S29+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BT",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CT_362",
+    "name": "S40+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CT",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_U_363",
+    "name": "V8+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "U",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AU_364",
+    "name": "V19+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AU",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BU_365",
+    "name": "V30+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BU",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CU_366",
+    "name": "V41+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CU",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_V_367",
+    "name": "S8+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "V",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AV_368",
+    "name": "S19+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AV",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BV_369",
+    "name": "S30+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BV",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CV_370",
+    "name": "S41+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CV",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_W_371",
+    "name": "V9+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "W",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AW_372",
+    "name": "V20+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AW",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BW_373",
+    "name": "V31+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BW",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CW_374",
+    "name": "V42+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CW",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_X_375",
+    "name": "S9+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "X",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AX_376",
+    "name": "S20+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AX",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BX_377",
+    "name": "S31+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BX",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CX_378",
+    "name": "S42+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CX",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_Y_379",
+    "name": "V10+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "Y",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AY_380",
+    "name": "V21+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AY",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BY_381",
+    "name": "V32+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BY",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CY_382",
+    "name": "V43+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CY",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_Z_383",
+    "name": "S10+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "Z",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_AZ_384",
+    "name": "S21+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "AZ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_BZ_385",
+    "name": "S32+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "BZ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_2#90pin连接器_CZ_386",
+    "name": "S43+",
+    "type": "UNKNOWN",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "originalPin": "CZ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_A_387",
+    "name": "V45+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "A",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_a_388",
+    "name": "V56+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "a",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_AA_389",
+    "name": "V67+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "AA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_B_390",
+    "name": "S45+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "B",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_b_391",
+    "name": "S56+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "b",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_BB_392",
+    "name": "S67+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "BB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_C_393",
+    "name": "V46+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "C",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_c_394",
+    "name": "V57+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "c",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_CC_395",
+    "name": "V68+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "CC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_D_396",
+    "name": "S46+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "D",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_d_397",
+    "name": "S57+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "d",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_DD_398",
+    "name": "S68+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "DD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_E_399",
+    "name": "V47+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "E",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_e_400",
+    "name": "V58+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "e",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_EE_401",
+    "name": "V69+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "EE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_F_402",
+    "name": "S47+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "F",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_f_403",
+    "name": "S58+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "f",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_FF_404",
+    "name": "S69+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "FF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_H_405",
+    "name": "V48+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "H",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_h_406",
+    "name": "V59+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "h",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_HH_407",
+    "name": "V70+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "HH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_J_408",
+    "name": "S48+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "J",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_j_409",
+    "name": "S59+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "j",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_JJ_410",
+    "name": "S70+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "JJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_K_411",
+    "name": "V49+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "K",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_k_412",
+    "name": "V60+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "k",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_KK_413",
+    "name": "V71+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "KK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_L_414",
+    "name": "S49+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "L",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_l_415",
+    "name": "S60+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "l",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_LL_416",
+    "name": "S71+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "LL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_M_417",
+    "name": "V50+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "M",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_m_418",
+    "name": "V61+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "m",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_MM_419",
+    "name": "V72+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "MM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_N_420",
+    "name": "S50+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "N",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_n_421",
+    "name": "S61+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "n",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_NN_422",
+    "name": "S72+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "NN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_P_423",
+    "name": "V51+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "P",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_p_424",
+    "name": "V62+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "p",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_R_425",
+    "name": "S51+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "R",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_r_426",
+    "name": "S62+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "r",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_S_427",
+    "name": "V52+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "S",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_s_428",
+    "name": "V63+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "s",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_T_429",
+    "name": "S52+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "T",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_t_430",
+    "name": "S63+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "t",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_U_431",
+    "name": "V53+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "U",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_u_432",
+    "name": "V64+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "u",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_V_433",
+    "name": "S53+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "V",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_v_434",
+    "name": "S64+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "v",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_W_435",
+    "name": "V54+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "W",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_w_436",
+    "name": "V65+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "w",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_X_437",
+    "name": "S54+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "X",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_x_438",
+    "name": "S65+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "x",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_Y_439",
+    "name": "V55+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "Y",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_y_440",
+    "name": "V66+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "y",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_Z_441",
+    "name": "S55+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "Z",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_56pin连接器_z_442",
+    "name": "S66+",
+    "type": "UNKNOWN",
+    "tags": [
+      "56pin连接器"
+    ],
+    "originalPin": "z",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_A_443",
+    "name": "V73+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "A",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AA_444",
+    "name": "V84+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BA_445",
+    "name": "V95+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CA_446",
+    "name": "V106+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DA_447",
+    "name": "V117+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DA",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_B_448",
+    "name": "S73+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "B",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AB_449",
+    "name": "S84+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BB_450",
+    "name": "S95+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CB_451",
+    "name": "S106+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DB_452",
+    "name": "S117+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DB",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_C_453",
+    "name": "V74+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "C",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AC_454",
+    "name": "V85+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BC_455",
+    "name": "V96+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CC_456",
+    "name": "V107+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DC_457",
+    "name": "V118+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DC",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_D_458",
+    "name": "S74+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "D",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AD_459",
+    "name": "S85+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BD_460",
+    "name": "S96+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CD_461",
+    "name": "S107+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DD_462",
+    "name": "S118+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DD",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_E_463",
+    "name": "V75+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "E",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AE_464",
+    "name": "V86+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BE_465",
+    "name": "V97+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CE_466",
+    "name": "V108+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DE_467",
+    "name": "V119+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DE",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_F_468",
+    "name": "S75+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "F",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AF_469",
+    "name": "S86+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BF_470",
+    "name": "S97+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CF_471",
+    "name": "S108+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DF_472",
+    "name": "S119+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DF",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_H_473",
+    "name": "V76+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "H",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AH_474",
+    "name": "V87+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BH_475",
+    "name": "V98+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CH_476",
+    "name": "V109+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DH_477",
+    "name": "V120+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DH",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_J_478",
+    "name": "S76+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "J",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AJ_479",
+    "name": "S87+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BJ_480",
+    "name": "S98+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CJ_481",
+    "name": "S109+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DJ_482",
+    "name": "S120+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DJ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_K_483",
+    "name": "V77+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "K",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AK_484",
+    "name": "V88+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BK_485",
+    "name": "V99+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CK_486",
+    "name": "V110+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DK_487",
+    "name": "V121+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DK",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_L_488",
+    "name": "S77+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "L",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AL_489",
+    "name": "S88+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BL_490",
+    "name": "S99+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CL_491",
+    "name": "S110+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DL_492",
+    "name": "S121+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DL",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_M_493",
+    "name": "V78+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "M",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AM_494",
+    "name": "V89+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BM_495",
+    "name": "V100+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CM_496",
+    "name": "V111+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DM_497",
+    "name": "V122+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DM",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_N_498",
+    "name": "S78+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "N",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AN_499",
+    "name": "S89+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BN_500",
+    "name": "S100+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CN_501",
+    "name": "S111+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DN_502",
+    "name": "S122+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DN",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_P_503",
+    "name": "V79+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "P",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AP_504",
+    "name": "V90+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AP",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BP_505",
+    "name": "V101+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BP",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CP_506",
+    "name": "V112+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CP",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DP_507",
+    "name": "V123+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DP",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_R_508",
+    "name": "S79+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "R",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AR_509",
+    "name": "S90+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AR",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BR_510",
+    "name": "S101+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BR",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CR_511",
+    "name": "S112+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CR",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DR_512",
+    "name": "S123+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DR",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_S_513",
+    "name": "V80+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "S",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AS_514",
+    "name": "V91+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AS",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BS_515",
+    "name": "V102+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BS",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CS_516",
+    "name": "V113+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CS",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DS_517",
+    "name": "V124+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DS",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_T_518",
+    "name": "S80+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "T",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AT_519",
+    "name": "S91+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AT",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BT_520",
+    "name": "S102+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BT",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CT_521",
+    "name": "S113+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CT",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DT_522",
+    "name": "S124+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DT",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_U_523",
+    "name": "V81+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "U",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AU_524",
+    "name": "V92+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AU",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BU_525",
+    "name": "V103+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BU",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CU_526",
+    "name": "V114+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CU",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DU_527",
+    "name": "V125+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DU",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_V_528",
+    "name": "S81+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "V",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AV_529",
+    "name": "S92+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AV",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BV_530",
+    "name": "S103+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BV",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CV_531",
+    "name": "S114+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CV",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DV_532",
+    "name": "S125+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DV",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_W_533",
+    "name": "V82+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "W",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AW_534",
+    "name": "V93+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AW",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BW_535",
+    "name": "V104+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BW",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CW_536",
+    "name": "V115+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CW",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DW_537",
+    "name": "V126+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DW",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_X_538",
+    "name": "S82+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "X",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AX_539",
+    "name": "S93+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AX",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BX_540",
+    "name": "S104+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BX",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CX_541",
+    "name": "S115+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CX",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_DX_542",
+    "name": "S126+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "DX",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_Y_543",
+    "name": "V83+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "Y",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AY_544",
+    "name": "V94+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AY",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BY_545",
+    "name": "V105+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BY",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CY_546",
+    "name": "V116+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CY",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_Z_547",
+    "name": "S83+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "Z",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_AZ_548",
+    "name": "S94+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "AZ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_BZ_549",
+    "name": "S105+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "BZ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  },
+  {
+    "id": "T_3#120pin连接器_CZ_550",
+    "name": "S116+",
+    "type": "UNKNOWN",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "originalPin": "CZ",
+    "description": "模块: 瑞萨-模拟电池柜接口定义"
+  }
+]

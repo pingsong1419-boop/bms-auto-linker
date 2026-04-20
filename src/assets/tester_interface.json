@@ -1,0 +1,5512 @@
+[
+  {
+    "id": "md_pin_6",
+    "name": "POWER+",
+    "originalPin": "A",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_7",
+    "name": "RELAY_POWER+（DCDC电源+）",
+    "originalPin": "B",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_8",
+    "name": "WAKE1",
+    "originalPin": "C",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_9",
+    "name": "WAKE2",
+    "originalPin": "D",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_10",
+    "name": "WAKE3",
+    "originalPin": "E",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_11",
+    "name": "WAKE4",
+    "originalPin": "F",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_12",
+    "name": "WAKE5",
+    "originalPin": "H",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_13",
+    "name": "WAKE6",
+    "originalPin": "J",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_14",
+    "name": "WAKE7",
+    "originalPin": "K",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_15",
+    "name": "WAKE8",
+    "originalPin": "L",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_16",
+    "name": "WAKE9",
+    "originalPin": "M",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_17",
+    "name": "PWOER1-",
+    "originalPin": "N",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_18",
+    "name": "PWOER2-",
+    "originalPin": "P",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_19",
+    "name": "PWOER3-",
+    "originalPin": "R",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_20",
+    "name": "PWOER4-",
+    "originalPin": "S",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_21",
+    "name": "INCANH",
+    "originalPin": "T",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_22",
+    "name": "INCANL",
+    "originalPin": "U",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_23",
+    "name": "INCANG",
+    "originalPin": "V",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_24",
+    "name": "VECANH",
+    "originalPin": "W",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_25",
+    "name": "VECANL",
+    "originalPin": "X",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_26",
+    "name": "VECANG",
+    "originalPin": "Y",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_27",
+    "name": "CHGCANH",
+    "originalPin": "Z",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_28",
+    "name": "13#万用表+",
+    "originalPin": "A",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_29",
+    "name": "13#万用表-",
+    "originalPin": "B",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_30",
+    "name": "14#万用表+",
+    "originalPin": "C",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_31",
+    "name": "14#万用表-",
+    "originalPin": "D",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_32",
+    "name": "15#万用表+",
+    "originalPin": "E",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_33",
+    "name": "15#万用表-",
+    "originalPin": "F",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_34",
+    "name": "16#万用表+",
+    "originalPin": "H",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_35",
+    "name": "16#万用表-",
+    "originalPin": "J",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_36",
+    "name": "17#万用表+",
+    "originalPin": "K",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_37",
+    "name": "17#万用表-",
+    "originalPin": "L",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_38",
+    "name": "18#万用表+",
+    "originalPin": "M",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_39",
+    "name": "18#万用表-",
+    "originalPin": "N",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_40",
+    "name": "19#万用表+",
+    "originalPin": "P",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_41",
+    "name": "19#万用表-",
+    "originalPin": "R",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_42",
+    "name": "20#万用表+",
+    "originalPin": "S",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_43",
+    "name": "20#万用表-",
+    "originalPin": "T",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_44",
+    "name": "21#万用表+",
+    "originalPin": "U",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_45",
+    "name": "21#万用表-",
+    "originalPin": "V",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_46",
+    "name": "22#万用表+",
+    "originalPin": "W",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_47",
+    "name": "22#万用表-",
+    "originalPin": "X",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_48",
+    "name": "23#万用表+",
+    "originalPin": "Y",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_49",
+    "name": "23#万用表-",
+    "originalPin": "Z",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_50",
+    "name": "CHGCANL",
+    "originalPin": "AA",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_51",
+    "name": "CHGCANG",
+    "originalPin": "AB",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_52",
+    "name": "预留CANH",
+    "originalPin": "AC",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_53",
+    "name": "预留CANL",
+    "originalPin": "AD",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_54",
+    "name": "DC-CrashSignal-In",
+    "originalPin": "AF",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_55",
+    "name": "DC-CrashSignal-Out",
+    "originalPin": "AH",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_56",
+    "name": "PYRO_PRM+",
+    "originalPin": "AJ",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_57",
+    "name": "PYRO_PRM-",
+    "originalPin": "AK",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_58",
+    "name": "PYRO_SEC+",
+    "originalPin": "AL",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_59",
+    "name": "PYRO_SEC-",
+    "originalPin": "AM",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_60",
+    "name": "CC1",
+    "originalPin": "AT",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_61",
+    "name": "CHAOJI_CC1",
+    "originalPin": "AU",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_62",
+    "name": "CC",
+    "originalPin": "AV",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_63",
+    "name": "CC2",
+    "originalPin": "AW",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_64",
+    "name": "CP",
+    "originalPin": "AX",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_65",
+    "name": "PWMG",
+    "originalPin": "AY",
+    "type": "DO",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_66",
+    "name": "5V",
+    "originalPin": "AZ",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_67",
+    "name": "24#万用表+",
+    "originalPin": "AA",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_68",
+    "name": "24#万用表-",
+    "originalPin": "AB",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_69",
+    "name": "25#万用表+",
+    "originalPin": "AC",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_70",
+    "name": "25#万用表-",
+    "originalPin": "AD",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_71",
+    "name": "26#万用表+",
+    "originalPin": "AE",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_72",
+    "name": "26#万用表-",
+    "originalPin": "AF",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_73",
+    "name": "27#万用表+",
+    "originalPin": "AH",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_74",
+    "name": "27#万用表-",
+    "originalPin": "AJ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_75",
+    "name": "28#万用表+",
+    "originalPin": "AK",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_76",
+    "name": "28#万用表-",
+    "originalPin": "AL",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_77",
+    "name": "从机NTC1+",
+    "originalPin": "AM",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_78",
+    "name": "从机NTC1-",
+    "originalPin": "AN",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_79",
+    "name": "从机NTC2+",
+    "originalPin": "AP",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_80",
+    "name": "从机NTC2-",
+    "originalPin": "AR",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_81",
+    "name": "从机NTC3+",
+    "originalPin": "AS",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_82",
+    "name": "从机NTC3-",
+    "originalPin": "AT",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_83",
+    "name": "从机NTC4+",
+    "originalPin": "AU",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_84",
+    "name": "从机NTC4-",
+    "originalPin": "AV",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_85",
+    "name": "从机NTC5+",
+    "originalPin": "AW",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_86",
+    "name": "从机NTC5-",
+    "originalPin": "AX",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_87",
+    "name": "从机NTC6+",
+    "originalPin": "AY",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_88",
+    "name": "从机NTC6-",
+    "originalPin": "AZ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_89",
+    "name": "GND",
+    "originalPin": "BA",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_90",
+    "name": "TMS",
+    "originalPin": "BB",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_91",
+    "name": "TCK",
+    "originalPin": "BC",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_92",
+    "name": "TDO",
+    "originalPin": "BD",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_93",
+    "name": "TRST_N",
+    "originalPin": "BE",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_94",
+    "name": "PORST_N",
+    "originalPin": "BF",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_95",
+    "name": "高精度信号发生器输出1+",
+    "originalPin": "BJ",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_96",
+    "name": "高精度信号发生器输出1-",
+    "originalPin": "BK",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_97",
+    "name": "高精度信号发生器输出2+",
+    "originalPin": "BL",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_98",
+    "name": "高精度信号发生器输出2-",
+    "originalPin": "BM",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_99",
+    "name": "高精度信号发生器输出3+",
+    "originalPin": "BN",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_100",
+    "name": "高精度信号发生器输出3-",
+    "originalPin": "BP",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_101",
+    "name": "高精度信号发生器输出4+",
+    "originalPin": "BR",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_102",
+    "name": "高精度信号发生器输出4-",
+    "originalPin": "BS",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_103",
+    "name": "从机NTC7+",
+    "originalPin": "BA",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_104",
+    "name": "从机NTC7-",
+    "originalPin": "BB",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_105",
+    "name": "从机NTC8+",
+    "originalPin": "BC",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_106",
+    "name": "从机NTC8-",
+    "originalPin": "BD",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_107",
+    "name": "从机NTC9+",
+    "originalPin": "BE",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_108",
+    "name": "从机NTC9-",
+    "originalPin": "BF",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_109",
+    "name": "从机NTC10+",
+    "originalPin": "BH",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_110",
+    "name": "从机NTC10-",
+    "originalPin": "BJ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_111",
+    "name": "从机NTC11+",
+    "originalPin": "BK",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_112",
+    "name": "从机NTC11-",
+    "originalPin": "BL",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_113",
+    "name": "从机NTC12+",
+    "originalPin": "BM",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_114",
+    "name": "从机NTC12-",
+    "originalPin": "BN",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_115",
+    "name": "从机NTC13+",
+    "originalPin": "BP",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_116",
+    "name": "从机NTC13-",
+    "originalPin": "BR",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_117",
+    "name": "从机NTC14+",
+    "originalPin": "BS",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_118",
+    "name": "从机NTC14-",
+    "originalPin": "BT",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_119",
+    "name": "从机NTC15+",
+    "originalPin": "BU",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_120",
+    "name": "从机NTC15-",
+    "originalPin": "BV",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_121",
+    "name": "从机NTC16+",
+    "originalPin": "BW",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_122",
+    "name": "从机NTC16-",
+    "originalPin": "BX",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_123",
+    "name": "从机NTC17+",
+    "originalPin": "BY",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_124",
+    "name": "从机NTC17-",
+    "originalPin": "BZ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_125",
+    "name": "主机NTC1+",
+    "originalPin": "CL",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_126",
+    "name": "主机NTC1-",
+    "originalPin": "CM",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_127",
+    "name": "主机NTC2+",
+    "originalPin": "CN",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_128",
+    "name": "主机NTC2-",
+    "originalPin": "CP",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_129",
+    "name": "主机NTC3+",
+    "originalPin": "CR",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_130",
+    "name": "主机NTC3-",
+    "originalPin": "CS",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_131",
+    "name": "主机NTC4+",
+    "originalPin": "CT",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_132",
+    "name": "主机NTC4-",
+    "originalPin": "CU",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_133",
+    "name": "主机NTC5+",
+    "originalPin": "CV",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_134",
+    "name": "主机NTC5-",
+    "originalPin": "CW",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_135",
+    "name": "主机NTC6+",
+    "originalPin": "CX",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_136",
+    "name": "主机NTC6-",
+    "originalPin": "CY",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_137",
+    "name": "分流器温感1+",
+    "originalPin": "CZ",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_138",
+    "name": "从机NTC18+",
+    "originalPin": "CA",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_139",
+    "name": "从机NTC18-",
+    "originalPin": "CB",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_140",
+    "name": "从机NTC19+",
+    "originalPin": "CC",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_141",
+    "name": "从机NTC19-",
+    "originalPin": "CD",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_142",
+    "name": "从机NTC20+",
+    "originalPin": "CE",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_143",
+    "name": "从机NTC20-",
+    "originalPin": "CF",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_144",
+    "name": "从机NTC21+",
+    "originalPin": "CH",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_145",
+    "name": "从机NTC21-",
+    "originalPin": "CJ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_146",
+    "name": "从机NTC22+",
+    "originalPin": "CK",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_147",
+    "name": "从机NTC22-",
+    "originalPin": "CL",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_148",
+    "name": "从机NTC23+",
+    "originalPin": "CM",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_149",
+    "name": "从机NTC23-",
+    "originalPin": "CN",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_150",
+    "name": "从机NTC24+",
+    "originalPin": "CP",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_151",
+    "name": "从机NTC24-",
+    "originalPin": "CR",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_152",
+    "name": "从机NTC25+",
+    "originalPin": "CS",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_153",
+    "name": "从机NTC25-",
+    "originalPin": "CT",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_154",
+    "name": "从机NTC26+",
+    "originalPin": "CU",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_155",
+    "name": "从机NTC26-",
+    "originalPin": "CV",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_156",
+    "name": "从机NTC27+",
+    "originalPin": "CW",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_157",
+    "name": "从机NTC27-",
+    "originalPin": "CX",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_158",
+    "name": "从机NTC28+",
+    "originalPin": "CY",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_159",
+    "name": "从机NTC28-",
+    "originalPin": "CZ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_160",
+    "name": "分流器温感1-",
+    "originalPin": "DA",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_161",
+    "name": "分流器温感2+",
+    "originalPin": "DB",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_162",
+    "name": "分流器温感2-",
+    "originalPin": "DC",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_163",
+    "name": "预留可编程电阻1+",
+    "originalPin": "DD",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_164",
+    "name": "预留可编程电阻1+",
+    "originalPin": "DE",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_165",
+    "name": "预留可编程电阻2+",
+    "originalPin": "DF",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_166",
+    "name": "预留可编程电阻2-",
+    "originalPin": "DH",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_167",
+    "name": "1#万用表+",
+    "originalPin": "DJ",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_168",
+    "name": "1#万用表-",
+    "originalPin": "DK",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_169",
+    "name": "2#万用表+",
+    "originalPin": "DL",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_170",
+    "name": "2#万用表-",
+    "originalPin": "DM",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_171",
+    "name": "3#万用表+",
+    "originalPin": "DN",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_172",
+    "name": "3#万用表-",
+    "originalPin": "DP",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_173",
+    "name": "4#万用表+",
+    "originalPin": "DR",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_174",
+    "name": "4#万用表-",
+    "originalPin": "DS",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_175",
+    "name": "5#万用表+",
+    "originalPin": "DT",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_176",
+    "name": "5#万用表-",
+    "originalPin": "DU",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_177",
+    "name": "6#万用表+",
+    "originalPin": "DV",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_178",
+    "name": "6#万用表-",
+    "originalPin": "DW",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_179",
+    "name": "7#万用表+",
+    "originalPin": "DX",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_180",
+    "name": "7#万用表-",
+    "originalPin": "DY",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_181",
+    "name": "8#万用表+",
+    "originalPin": "DZ",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_182",
+    "name": "29#万用表+",
+    "originalPin": "DA",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_183",
+    "name": "29#万用表-",
+    "originalPin": "DB",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_184",
+    "name": "30#万用表+",
+    "originalPin": "DC",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_185",
+    "name": "30#万用表-",
+    "originalPin": "DD",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_186",
+    "name": "31#万用表+",
+    "originalPin": "DE",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_187",
+    "name": "31#万用表-",
+    "originalPin": "DF",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_188",
+    "name": "32#万用表+",
+    "originalPin": "DH",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_189",
+    "name": "32#万用表-",
+    "originalPin": "DJ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_190",
+    "name": "33#万用表+",
+    "originalPin": "DK",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_191",
+    "name": "33#万用表-",
+    "originalPin": "DL",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_192",
+    "name": "34#万用表+",
+    "originalPin": "DM",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_193",
+    "name": "34#万用表-",
+    "originalPin": "DN",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_194",
+    "name": "PLC输出6",
+    "originalPin": "DP",
+    "type": "DO",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_195",
+    "name": "PLC输出7",
+    "originalPin": "DR",
+    "type": "DO",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_196",
+    "name": "PLC输入1",
+    "originalPin": "DS",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_197",
+    "name": "PLC输入2",
+    "originalPin": "DT",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_198",
+    "name": "PLC输入3",
+    "originalPin": "DU",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_199",
+    "name": "PLC输入4",
+    "originalPin": "DV",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_200",
+    "name": "PLC输入5",
+    "originalPin": "DW",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_201",
+    "name": "PLC输出1",
+    "originalPin": "DX",
+    "type": "DO",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_202",
+    "name": "PLC输出2",
+    "originalPin": "DY",
+    "type": "DO",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_203",
+    "name": "PLC输出3",
+    "originalPin": "DZ",
+    "type": "DO",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_204",
+    "name": "8#万用表-",
+    "originalPin": "EA",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_205",
+    "name": "9#万用表+",
+    "originalPin": "EB",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_206",
+    "name": "9#万用表-",
+    "originalPin": "EC",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_207",
+    "name": "10#万用表+",
+    "originalPin": "ED",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_208",
+    "name": "10#万用表-",
+    "originalPin": "EE",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_209",
+    "name": "11#万用表+",
+    "originalPin": "EF",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_210",
+    "name": "11#万用表-",
+    "originalPin": "EH",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_211",
+    "name": "12#万用表+",
+    "originalPin": "EJ",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_212",
+    "name": "12#万用表-",
+    "originalPin": "EK",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_213",
+    "name": "PLC输出4",
+    "originalPin": "EA",
+    "type": "DO",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_214",
+    "name": "24V-",
+    "originalPin": "EB",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_215",
+    "name": "24V+",
+    "originalPin": "EC",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_216",
+    "name": "485+",
+    "originalPin": "ED",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_217",
+    "name": "485-",
+    "originalPin": "EE",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_218",
+    "name": "POWER+",
+    "originalPin": "EF",
+    "type": "HV",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_219",
+    "name": "WAKE1",
+    "originalPin": "EH",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_220",
+    "name": "PWOER1-",
+    "originalPin": "EJ",
+    "type": "GND",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_221",
+    "name": "INCANH",
+    "originalPin": "EK",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_222",
+    "name": "INCANL",
+    "originalPin": "EL",
+    "type": "CAN",
+    "tags": [
+      "1#120pin连接器"
+    ],
+    "description": "模块: 1#120pin连接器"
+  },
+  {
+    "id": "md_pin_223",
+    "name": "PE",
+    "originalPin": "C",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_224",
+    "name": "1#高压源+",
+    "originalPin": "D",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_225",
+    "name": "1#高压源-",
+    "originalPin": "E",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_226",
+    "name": "2#高压源+",
+    "originalPin": "F",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_227",
+    "name": "2#高压源-",
+    "originalPin": "H",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_228",
+    "name": "3#高压源+",
+    "originalPin": "J",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_229",
+    "name": "3#高压源-",
+    "originalPin": "K",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_230",
+    "name": "4#高压源+",
+    "originalPin": "L",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_231",
+    "name": "4#高压源-",
+    "originalPin": "M",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_232",
+    "name": "5#高压源+",
+    "originalPin": "N",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_233",
+    "name": "5#高压源-",
+    "originalPin": "P",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_234",
+    "name": "6#高压源+",
+    "originalPin": "R",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_235",
+    "name": "6#高压源-",
+    "originalPin": "S",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_236",
+    "name": "7#高压源+",
+    "originalPin": "T",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_237",
+    "name": "8#高压源+",
+    "originalPin": "U",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_238",
+    "name": "9#高压源+",
+    "originalPin": "V",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_239",
+    "name": "10#高压源-",
+    "originalPin": "W",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_240",
+    "name": "PWM板卡检测1+",
+    "originalPin": "X",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_241",
+    "name": "PWM板卡检测1-",
+    "originalPin": "Y",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_242",
+    "name": "PWM板卡检测2+",
+    "originalPin": "Z",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_243",
+    "name": "PWM板卡检测3+",
+    "originalPin": "AB",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_244",
+    "name": "PWM板卡检测3-",
+    "originalPin": "AC",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_245",
+    "name": "PWM板卡检测4+",
+    "originalPin": "AD",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_246",
+    "name": "PWM板卡检测4-",
+    "originalPin": "AE",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_247",
+    "name": "PWM板卡输出1+",
+    "originalPin": "AF",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_248",
+    "name": "PWM板卡输出1-",
+    "originalPin": "AH",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_249",
+    "name": "PWM板卡输出2+",
+    "originalPin": "AJ",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_250",
+    "name": "PWM板卡输出2-",
+    "originalPin": "AK",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_251",
+    "name": "PWM板卡输出3+",
+    "originalPin": "AL",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_252",
+    "name": "PWM板卡输出3-",
+    "originalPin": "AM",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_253",
+    "name": "PWM板卡输出4+",
+    "originalPin": "AN",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_254",
+    "name": "PWM板卡输出4-",
+    "originalPin": "AP",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_255",
+    "name": "1#机柜内部短接+",
+    "originalPin": "AR",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_256",
+    "name": "1#机柜内部短接-",
+    "originalPin": "AS",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_257",
+    "name": "2#机柜内部短接+",
+    "originalPin": "AT",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_258",
+    "name": "2#机柜内部短接-",
+    "originalPin": "AU",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_259",
+    "name": "3#机柜内部短接+",
+    "originalPin": "AV",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_260",
+    "name": "3#机柜内部短接-",
+    "originalPin": "AW",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_261",
+    "name": "4#机柜内部短接+",
+    "originalPin": "AX",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_262",
+    "name": "4#机柜内部短接-",
+    "originalPin": "AY",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_263",
+    "name": "5#机柜内部短接+",
+    "originalPin": "AZ",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_264",
+    "name": "6#机柜内部短接+",
+    "originalPin": "BB",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_265",
+    "name": "6#机柜内部短接-",
+    "originalPin": "BC",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_266",
+    "name": "HSD_OUTPUT1/高边驱动",
+    "originalPin": "BD",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_267",
+    "name": "HSD_OUTPUT2/高边驱动",
+    "originalPin": "BE",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_268",
+    "name": "HSD_OUTPUT3/高边驱动",
+    "originalPin": "BF",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_269",
+    "name": "HSD_OUTPUT4/高边驱动",
+    "originalPin": "BH",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_270",
+    "name": "HSD_OUTPUT5/高边驱动",
+    "originalPin": "BJ",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_271",
+    "name": "HSD_OUTPUT6/高边驱动",
+    "originalPin": "BK",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_272",
+    "name": "HSD_OUTPUT7/高边驱动",
+    "originalPin": "BL",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_273",
+    "name": "HSD_OUTPUT8/高边驱动",
+    "originalPin": "BM",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_274",
+    "name": "LSD_OUTPUT1/低边驱动",
+    "originalPin": "BN",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_275",
+    "name": "LSD_OUTPUT2/低边驱动",
+    "originalPin": "BP",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_276",
+    "name": "LSD_OUTPUT3/低边驱动",
+    "originalPin": "BR",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_277",
+    "name": "LSD_OUTPUT4/低边驱动",
+    "originalPin": "BS",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_278",
+    "name": "LSD_OUTPUT5/低边驱动",
+    "originalPin": "BT",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_279",
+    "name": "LSD_OUTPUT6/低边驱动",
+    "originalPin": "BU",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_280",
+    "name": "PLC输入1",
+    "originalPin": "BV",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_281",
+    "name": "PLC输入2",
+    "originalPin": "BW",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_282",
+    "name": "PLC输入3",
+    "originalPin": "BX",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_283",
+    "name": "PLC输入4",
+    "originalPin": "BY",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_284",
+    "name": "PLC输入5",
+    "originalPin": "BZ",
+    "type": "UNKNOWN",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_285",
+    "name": "PLC输出2",
+    "originalPin": "CB",
+    "type": "DO",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_286",
+    "name": "PLC输出3",
+    "originalPin": "CC",
+    "type": "DO",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_287",
+    "name": "PLC输出4",
+    "originalPin": "CD",
+    "type": "DO",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_288",
+    "name": "24V-",
+    "originalPin": "CE",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_289",
+    "name": "24V+",
+    "originalPin": "CF",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_290",
+    "name": "485+",
+    "originalPin": "CH",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_291",
+    "name": "485-",
+    "originalPin": "CJ",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_292",
+    "name": "7#机柜内部短接+",
+    "originalPin": "CK",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_293",
+    "name": "7#机柜内部短接-",
+    "originalPin": "CL",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_294",
+    "name": "8#机柜内部短接+",
+    "originalPin": "CM",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_295",
+    "name": "8#机柜内部短接-",
+    "originalPin": "CN",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_296",
+    "name": "PLC输出5",
+    "originalPin": "CP",
+    "type": "DO",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_297",
+    "name": "PLC输出6",
+    "originalPin": "CR",
+    "type": "DO",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_298",
+    "name": "PLC输出7",
+    "originalPin": "CS",
+    "type": "DO",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_299",
+    "name": "9#机柜内部短接+",
+    "originalPin": "CT",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_300",
+    "name": "9#机柜内部短接-",
+    "originalPin": "CU",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_301",
+    "name": "10#机柜内部短接+",
+    "originalPin": "CV",
+    "type": "HV",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_302",
+    "name": "10#机柜内部短接-",
+    "originalPin": "CW",
+    "type": "GND",
+    "tags": [
+      "1#90pin连接器"
+    ],
+    "description": "模块: 1#90pin连接器"
+  },
+  {
+    "id": "md_pin_303",
+    "name": "V1-",
+    "originalPin": "A",
+    "type": "GND",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_304",
+    "name": "S1-",
+    "originalPin": "B",
+    "type": "GND",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_305",
+    "name": "V1+",
+    "originalPin": "C",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_306",
+    "name": "S1+",
+    "originalPin": "D",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_307",
+    "name": "V2+",
+    "originalPin": "E",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_308",
+    "name": "S2+",
+    "originalPin": "F",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_309",
+    "name": "V3+",
+    "originalPin": "H",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_310",
+    "name": "S3+",
+    "originalPin": "J",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_311",
+    "name": "V4+",
+    "originalPin": "K",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_312",
+    "name": "S4+",
+    "originalPin": "L",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_313",
+    "name": "V5+",
+    "originalPin": "M",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_314",
+    "name": "S5+",
+    "originalPin": "N",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_315",
+    "name": "V6+",
+    "originalPin": "P",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_316",
+    "name": "S6+",
+    "originalPin": "R",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_317",
+    "name": "V7+",
+    "originalPin": "S",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_318",
+    "name": "S7+",
+    "originalPin": "T",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_319",
+    "name": "V8+",
+    "originalPin": "U",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_320",
+    "name": "S8+",
+    "originalPin": "V",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_321",
+    "name": "V9+",
+    "originalPin": "W",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_322",
+    "name": "S9+",
+    "originalPin": "X",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_323",
+    "name": "V10+",
+    "originalPin": "Y",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_324",
+    "name": "S10+",
+    "originalPin": "Z",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_325",
+    "name": "V11+",
+    "originalPin": "AA",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_326",
+    "name": "S11+",
+    "originalPin": "AB",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_327",
+    "name": "V12+",
+    "originalPin": "AC",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_328",
+    "name": "S12+",
+    "originalPin": "AD",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_329",
+    "name": "V13+",
+    "originalPin": "AE",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_330",
+    "name": "S13+",
+    "originalPin": "AF",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_331",
+    "name": "V14+",
+    "originalPin": "AH",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_332",
+    "name": "S14+",
+    "originalPin": "AJ",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_333",
+    "name": "V15+",
+    "originalPin": "AK",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_334",
+    "name": "S15+",
+    "originalPin": "AL",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_335",
+    "name": "V16+",
+    "originalPin": "AM",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_336",
+    "name": "S16+",
+    "originalPin": "AN",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_337",
+    "name": "V17+",
+    "originalPin": "AP",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_338",
+    "name": "S17+",
+    "originalPin": "AR",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_339",
+    "name": "V18+",
+    "originalPin": "AS",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_340",
+    "name": "S18+",
+    "originalPin": "AT",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_341",
+    "name": "V19+",
+    "originalPin": "AU",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_342",
+    "name": "S19+",
+    "originalPin": "AV",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_343",
+    "name": "V20+",
+    "originalPin": "AW",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_344",
+    "name": "S20+",
+    "originalPin": "AX",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_345",
+    "name": "V21+",
+    "originalPin": "AY",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_346",
+    "name": "S21+",
+    "originalPin": "AZ",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_347",
+    "name": "V22+",
+    "originalPin": "BA",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_348",
+    "name": "S22+",
+    "originalPin": "BB",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_349",
+    "name": "V23+",
+    "originalPin": "BC",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_350",
+    "name": "S23+",
+    "originalPin": "BD",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_351",
+    "name": "V24+",
+    "originalPin": "BE",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_352",
+    "name": "S24+",
+    "originalPin": "BF",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_353",
+    "name": "V25+",
+    "originalPin": "BH",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_354",
+    "name": "S25+",
+    "originalPin": "BJ",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_355",
+    "name": "V26+",
+    "originalPin": "BK",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_356",
+    "name": "S26+",
+    "originalPin": "BL",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_357",
+    "name": "V27+",
+    "originalPin": "BM",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_358",
+    "name": "S27+",
+    "originalPin": "BN",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_359",
+    "name": "V28+",
+    "originalPin": "BP",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_360",
+    "name": "S28+",
+    "originalPin": "BR",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_361",
+    "name": "V29+",
+    "originalPin": "BS",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_362",
+    "name": "S29+",
+    "originalPin": "BT",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_363",
+    "name": "V30+",
+    "originalPin": "BU",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_364",
+    "name": "S30+",
+    "originalPin": "BV",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_365",
+    "name": "V31+",
+    "originalPin": "BW",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_366",
+    "name": "S31+",
+    "originalPin": "BX",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_367",
+    "name": "V32+",
+    "originalPin": "BY",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_368",
+    "name": "S32+",
+    "originalPin": "BZ",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_369",
+    "name": "V33+",
+    "originalPin": "CA",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_370",
+    "name": "S33+",
+    "originalPin": "CB",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_371",
+    "name": "V34+",
+    "originalPin": "CC",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_372",
+    "name": "S34+",
+    "originalPin": "CD",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_373",
+    "name": "V35+",
+    "originalPin": "CE",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_374",
+    "name": "S35+",
+    "originalPin": "CF",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_375",
+    "name": "V36+",
+    "originalPin": "CH",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_376",
+    "name": "S36+",
+    "originalPin": "CJ",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_377",
+    "name": "V37+",
+    "originalPin": "CK",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_378",
+    "name": "S37+",
+    "originalPin": "CL",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_379",
+    "name": "V38+",
+    "originalPin": "CM",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_380",
+    "name": "S38+",
+    "originalPin": "CN",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_381",
+    "name": "V39+",
+    "originalPin": "CP",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_382",
+    "name": "S39+",
+    "originalPin": "CR",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_383",
+    "name": "V40+",
+    "originalPin": "CS",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_384",
+    "name": "S40+",
+    "originalPin": "CT",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_385",
+    "name": "V41+",
+    "originalPin": "CU",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_386",
+    "name": "S41+",
+    "originalPin": "CV",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_387",
+    "name": "V42+",
+    "originalPin": "CW",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_388",
+    "name": "S42+",
+    "originalPin": "CX",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_389",
+    "name": "V43+",
+    "originalPin": "CY",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_390",
+    "name": "S43+",
+    "originalPin": "CZ",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_391",
+    "name": "V44+",
+    "originalPin": "DA",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_392",
+    "name": "S44+",
+    "originalPin": "DB",
+    "type": "HV",
+    "tags": [
+      "2#90pin连接器"
+    ],
+    "description": "模块: 2#90pin连接器"
+  },
+  {
+    "id": "md_pin_393",
+    "name": "V45+",
+    "originalPin": "A",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_394",
+    "name": "S45+",
+    "originalPin": "B",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_395",
+    "name": "V46+",
+    "originalPin": "C",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_396",
+    "name": "S46+",
+    "originalPin": "D",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_397",
+    "name": "V47+",
+    "originalPin": "E",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_398",
+    "name": "S47+",
+    "originalPin": "F",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_399",
+    "name": "V48+",
+    "originalPin": "H",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_400",
+    "name": "S48+",
+    "originalPin": "J",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_401",
+    "name": "V49+",
+    "originalPin": "K",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_402",
+    "name": "S49+",
+    "originalPin": "L",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_403",
+    "name": "V50+",
+    "originalPin": "M",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_404",
+    "name": "S50+",
+    "originalPin": "N",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_405",
+    "name": "V51+",
+    "originalPin": "P",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_406",
+    "name": "S51+",
+    "originalPin": "R",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_407",
+    "name": "V52+",
+    "originalPin": "S",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_408",
+    "name": "S52+",
+    "originalPin": "T",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_409",
+    "name": "V53+",
+    "originalPin": "U",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_410",
+    "name": "S53+",
+    "originalPin": "V",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_411",
+    "name": "V54+",
+    "originalPin": "W",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_412",
+    "name": "S54+",
+    "originalPin": "X",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_413",
+    "name": "V55+",
+    "originalPin": "Y",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_414",
+    "name": "S55+",
+    "originalPin": "Z",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_415",
+    "name": "V56+",
+    "originalPin": "a",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_416",
+    "name": "S56+",
+    "originalPin": "b",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_417",
+    "name": "V57+",
+    "originalPin": "c",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_418",
+    "name": "S57+",
+    "originalPin": "d",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_419",
+    "name": "V58+",
+    "originalPin": "e",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_420",
+    "name": "S58+",
+    "originalPin": "f",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_421",
+    "name": "V59+",
+    "originalPin": "h",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_422",
+    "name": "S59+",
+    "originalPin": "j",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_423",
+    "name": "V60+",
+    "originalPin": "k",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_424",
+    "name": "S60+",
+    "originalPin": "l",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_425",
+    "name": "V61+",
+    "originalPin": "m",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_426",
+    "name": "S61+",
+    "originalPin": "n",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_427",
+    "name": "V62+",
+    "originalPin": "p",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_428",
+    "name": "S62+",
+    "originalPin": "r",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_429",
+    "name": "V63+",
+    "originalPin": "s",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_430",
+    "name": "S63+",
+    "originalPin": "t",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_431",
+    "name": "V64+",
+    "originalPin": "u",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_432",
+    "name": "S64+",
+    "originalPin": "v",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_433",
+    "name": "V65+",
+    "originalPin": "w",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_434",
+    "name": "S65+",
+    "originalPin": "x",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_435",
+    "name": "V66+",
+    "originalPin": "y",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_436",
+    "name": "S66+",
+    "originalPin": "z",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_437",
+    "name": "V67+",
+    "originalPin": "AA",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_438",
+    "name": "S67+",
+    "originalPin": "BB",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_439",
+    "name": "V68+",
+    "originalPin": "CC",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_440",
+    "name": "S68+",
+    "originalPin": "DD",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_441",
+    "name": "V69+",
+    "originalPin": "EE",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_442",
+    "name": "S69+",
+    "originalPin": "FF",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_443",
+    "name": "V70+",
+    "originalPin": "HH",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_444",
+    "name": "S70+",
+    "originalPin": "JJ",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_445",
+    "name": "V71+",
+    "originalPin": "KK",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_446",
+    "name": "S71+",
+    "originalPin": "LL",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_447",
+    "name": "V72+",
+    "originalPin": "MM",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_448",
+    "name": "S72+",
+    "originalPin": "NN",
+    "type": "HV",
+    "tags": [
+      "56pin连接器"
+    ],
+    "description": "模块: 56pin连接器"
+  },
+  {
+    "id": "md_pin_449",
+    "name": "V73+",
+    "originalPin": "A",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_450",
+    "name": "S73+",
+    "originalPin": "B",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_451",
+    "name": "V74+",
+    "originalPin": "C",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_452",
+    "name": "S74+",
+    "originalPin": "D",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_453",
+    "name": "V75+",
+    "originalPin": "E",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_454",
+    "name": "S75+",
+    "originalPin": "F",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_455",
+    "name": "V76+",
+    "originalPin": "H",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_456",
+    "name": "S76+",
+    "originalPin": "J",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_457",
+    "name": "V77+",
+    "originalPin": "K",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_458",
+    "name": "S77+",
+    "originalPin": "L",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_459",
+    "name": "V78+",
+    "originalPin": "M",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_460",
+    "name": "S78+",
+    "originalPin": "N",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_461",
+    "name": "V79+",
+    "originalPin": "P",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_462",
+    "name": "S79+",
+    "originalPin": "R",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_463",
+    "name": "V80+",
+    "originalPin": "S",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_464",
+    "name": "S80+",
+    "originalPin": "T",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_465",
+    "name": "V81+",
+    "originalPin": "U",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_466",
+    "name": "S81+",
+    "originalPin": "V",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_467",
+    "name": "V82+",
+    "originalPin": "W",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_468",
+    "name": "S82+",
+    "originalPin": "X",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_469",
+    "name": "V83+",
+    "originalPin": "Y",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_470",
+    "name": "S83+",
+    "originalPin": "Z",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_471",
+    "name": "V84+",
+    "originalPin": "AA",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_472",
+    "name": "S84+",
+    "originalPin": "AB",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_473",
+    "name": "V85+",
+    "originalPin": "AC",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_474",
+    "name": "S85+",
+    "originalPin": "AD",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_475",
+    "name": "V86+",
+    "originalPin": "AE",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_476",
+    "name": "S86+",
+    "originalPin": "AF",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_477",
+    "name": "V87+",
+    "originalPin": "AH",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_478",
+    "name": "S87+",
+    "originalPin": "AJ",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_479",
+    "name": "V88+",
+    "originalPin": "AK",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_480",
+    "name": "S88+",
+    "originalPin": "AL",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_481",
+    "name": "V89+",
+    "originalPin": "AM",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_482",
+    "name": "S89+",
+    "originalPin": "AN",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_483",
+    "name": "V90+",
+    "originalPin": "AP",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_484",
+    "name": "S90+",
+    "originalPin": "AR",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_485",
+    "name": "V91+",
+    "originalPin": "AS",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_486",
+    "name": "S91+",
+    "originalPin": "AT",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_487",
+    "name": "V92+",
+    "originalPin": "AU",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_488",
+    "name": "S92+",
+    "originalPin": "AV",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_489",
+    "name": "V93+",
+    "originalPin": "AW",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_490",
+    "name": "S93+",
+    "originalPin": "AX",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_491",
+    "name": "V94+",
+    "originalPin": "AY",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_492",
+    "name": "S94+",
+    "originalPin": "AZ",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_493",
+    "name": "V95+",
+    "originalPin": "BA",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_494",
+    "name": "S95+",
+    "originalPin": "BB",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_495",
+    "name": "V96+",
+    "originalPin": "BC",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_496",
+    "name": "S96+",
+    "originalPin": "BD",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_497",
+    "name": "V97+",
+    "originalPin": "BE",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_498",
+    "name": "S97+",
+    "originalPin": "BF",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_499",
+    "name": "V98+",
+    "originalPin": "BH",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_500",
+    "name": "S98+",
+    "originalPin": "BJ",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_501",
+    "name": "V99+",
+    "originalPin": "BK",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_502",
+    "name": "S99+",
+    "originalPin": "BL",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_503",
+    "name": "V100+",
+    "originalPin": "BM",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_504",
+    "name": "S100+",
+    "originalPin": "BN",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_505",
+    "name": "V101+",
+    "originalPin": "BP",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_506",
+    "name": "S101+",
+    "originalPin": "BR",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_507",
+    "name": "V102+",
+    "originalPin": "BS",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_508",
+    "name": "S102+",
+    "originalPin": "BT",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_509",
+    "name": "V103+",
+    "originalPin": "BU",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_510",
+    "name": "S103+",
+    "originalPin": "BV",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_511",
+    "name": "V104+",
+    "originalPin": "BW",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_512",
+    "name": "S104+",
+    "originalPin": "BX",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_513",
+    "name": "V105+",
+    "originalPin": "BY",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_514",
+    "name": "S105+",
+    "originalPin": "BZ",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_515",
+    "name": "V106+",
+    "originalPin": "CA",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_516",
+    "name": "S106+",
+    "originalPin": "CB",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_517",
+    "name": "V107+",
+    "originalPin": "CC",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_518",
+    "name": "S107+",
+    "originalPin": "CD",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_519",
+    "name": "V108+",
+    "originalPin": "CE",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_520",
+    "name": "S108+",
+    "originalPin": "CF",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_521",
+    "name": "V109+",
+    "originalPin": "CH",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_522",
+    "name": "S109+",
+    "originalPin": "CJ",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_523",
+    "name": "V110+",
+    "originalPin": "CK",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_524",
+    "name": "S110+",
+    "originalPin": "CL",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_525",
+    "name": "V111+",
+    "originalPin": "CM",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_526",
+    "name": "S111+",
+    "originalPin": "CN",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_527",
+    "name": "V112+",
+    "originalPin": "CP",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_528",
+    "name": "S112+",
+    "originalPin": "CR",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_529",
+    "name": "V113+",
+    "originalPin": "CS",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_530",
+    "name": "S113+",
+    "originalPin": "CT",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_531",
+    "name": "V114+",
+    "originalPin": "CU",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_532",
+    "name": "S114+",
+    "originalPin": "CV",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_533",
+    "name": "V115+",
+    "originalPin": "CW",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_534",
+    "name": "S115+",
+    "originalPin": "CX",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_535",
+    "name": "V116+",
+    "originalPin": "CY",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_536",
+    "name": "S116+",
+    "originalPin": "CZ",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_537",
+    "name": "V117+",
+    "originalPin": "DA",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_538",
+    "name": "S117+",
+    "originalPin": "DB",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_539",
+    "name": "V118+",
+    "originalPin": "DC",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_540",
+    "name": "S118+",
+    "originalPin": "DD",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_541",
+    "name": "V119+",
+    "originalPin": "DE",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_542",
+    "name": "S119+",
+    "originalPin": "DF",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_543",
+    "name": "V120+",
+    "originalPin": "DH",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_544",
+    "name": "S120+",
+    "originalPin": "DJ",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_545",
+    "name": "V121+",
+    "originalPin": "DK",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_546",
+    "name": "S121+",
+    "originalPin": "DL",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_547",
+    "name": "V122+",
+    "originalPin": "DM",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_548",
+    "name": "S122+",
+    "originalPin": "DN",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_549",
+    "name": "V123+",
+    "originalPin": "DP",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_550",
+    "name": "S123+",
+    "originalPin": "DR",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_551",
+    "name": "V124+",
+    "originalPin": "DS",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_552",
+    "name": "S124+",
+    "originalPin": "DT",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_553",
+    "name": "V125+",
+    "originalPin": "DU",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_554",
+    "name": "S125+",
+    "originalPin": "DV",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_555",
+    "name": "V126+",
+    "originalPin": "DW",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  },
+  {
+    "id": "md_pin_556",
+    "name": "S126+",
+    "originalPin": "DX",
+    "type": "HV",
+    "tags": [
+      "3#120pin连接器"
+    ],
+    "description": "模块: 3#120pin连接器"
+  }
+]
