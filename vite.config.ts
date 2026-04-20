@@ -76,6 +76,31 @@ export default defineConfig({
                 if (deviceId === 'renesas') {
                    const legacyPath = path.resolve(__dirname, 'src/assets/tester_interface.json');
                    fs.writeFileSync(legacyPath, JSON.stringify(configData, null, 2), 'utf-8');
+                   
+                   // 同时同步更新 Markdown 文件 (事实来源 - 按照连接器分块显示)
+                   const mdPath = path.resolve(__dirname, 'device-interfaces/renesas-bms-cabinet-clean.md');
+                   let mdContent = "# 瑞萨-BMS功能测试柜 接口定义清单\n\n";
+                   
+                   // 按连接器分组
+                   const groups = configData.reduce((acc: any, pin: any) => {
+                     const connector = pin.tags?.[0] || '未分类连接器';
+                     if (!acc[connector]) acc[connector] = [];
+                     acc[connector].push(pin);
+                     return acc;
+                   }, {});
+
+                   Object.keys(groups).forEach(connector => {
+                     mdContent += `## ${connector}\n`;
+                     mdContent += `| 序号 | 针脚 (PIN) | 信号定义 |\n`;
+                     mdContent += `| :--- | :--- | :--- |\n`;
+                     groups[connector].forEach((pin: any, index: number) => {
+                       mdContent += `| ${index + 1} | ${pin.originalPin || '-'} | ${pin.name || '-'} |\n`;
+                     });
+                     mdContent += `\n`;
+                   });
+                   
+                   fs.writeFileSync(mdPath, mdContent, 'utf-8');
+                   console.log(`[API] 以分块格式同步更新 Markdown 文件: ${mdPath}`);
                 }
 
                 console.log(`[API] 设备 [${deviceId}] 配置已保存至: ${filePath}`);

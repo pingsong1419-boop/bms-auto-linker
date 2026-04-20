@@ -18,26 +18,33 @@ try {
   const content = fs.readFileSync(mdPath, 'utf-8');
   const lines = content.split('\n');
   const pins = [];
+  let currentConnector = '默认连接器';
 
   lines.forEach((line, index) => {
-    // 匹配 Markdown 表格行: | 连接器 | 脚位 | 信号定义 |
-    const match = line.match(/^\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|/);
+    // 识别连接器标题 ## 1#120pin连接器
+    const headerMatch = line.match(/^##\s+(.+)/);
+    if (headerMatch) {
+      currentConnector = headerMatch[1].trim();
+      return;
+    }
+
+    // 匹配 Markdown 表格行: | 序号 | 脚位 | 信号定义 |
+    const match = line.match(/^\|\s*(\d+)\s*\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|/);
     
     if (match) {
-      const connector = match[1].trim();
       const pinId = match[2].trim();
       const signalName = match[3].trim();
 
       // 跳过表头
-      if (connector === '连接器' || connector.startsWith(':---')) return;
+      if (pinId === '针脚 (PIN)' || pinId.startsWith(':---')) return;
 
       pins.push({
         id: `md_pin_${index}`,
         name: signalName,
         originalPin: pinId,
         type: inferType(signalName),
-        tags: [connector],
-        description: `模块: ${connector}`
+        tags: [currentConnector],
+        description: `模块: ${currentConnector}`
       });
     }
   });

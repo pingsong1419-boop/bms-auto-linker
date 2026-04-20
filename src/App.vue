@@ -31,23 +31,32 @@ const availableDevices = [
 const selectedDeviceId = ref('renesas');
 
 const loadDeviceConfig = async () => {
-  store.setIsMatching(true); // 临时借用 loading 状态
+  store.setIsMatching(true);
   try {
-    let rawData;
-    // 环境兼容：优先尝试从 devices 目录读取，如果失败且为 renesas 则读取默认导入的 testerData
+    let rawData: any;
     if (selectedDeviceId.value === 'renesas') {
       rawData = testerData;
+      // 兼容某些环境下的 JSON 导入格式
+      if (rawData && 'default' in rawData) rawData = rawData.default;
     } else {
       const response = await fetch(`/src/assets/devices/${selectedDeviceId.value}.json`);
       if (!response.ok) throw new Error(`设备 [${selectedDeviceId.value}] 定义文件不存在`);
       rawData = await response.json();
     }
 
-    const filteredTesterPins = (rawData as any[]).filter(p => p.originalPin !== '脚位');
+    console.log(`[Config] 加载设备: ${selectedDeviceId.value}, 原始数据类型: ${typeof rawData}, 是否数组: ${Array.isArray(rawData)}`);
+    
+    if (!Array.isArray(rawData)) {
+      console.error('[Config] 错误: 加载的数据不是有效的数组格式', rawData);
+      throw new Error('设备定义文件格式错误（预期为数组）');
+    }
+
+    const filteredTesterPins = rawData.filter(p => p.originalPin !== '脚位');
     store.setTesterPins(filteredTesterPins);
-    console.log(`[UI] 已加载设备定义: ${selectedDeviceId.value}`);
+    console.log(`[Config] 成功加载 ${filteredTesterPins.length} 个针脚定义`);
   } catch (err: any) {
     store.setTesterPins([]);
+    console.error('[Config] 加载失败:', err);
     alert(`加载配置失败: ${err.message}`);
   } finally {
     store.setIsMatching(false);
@@ -87,12 +96,17 @@ const handleBmsImport = (event: Event) => {
         ['信号', '名称', 'name', 'signal', 'definition'].some(k => key.toLowerCase().includes(k))
       ) || Object.keys(row)[0];
 
+      // 智能识别描述列 (功能描述、释义、解释等)
+      const descKey = Object.keys(row).find(key => 
+        ['描述', '含义', '解释', '功能', '释义', 'description'].some(k => key.toLowerCase().includes(k))
+      );
+
       return {
         id: `bms_imported_${index}`,
         name: String(row[nameKey] || ''),
         type: 'UNKNOWN' as PinType,
         tags: [String(row[Object.keys(row)[0]] || 'DUT')],
-        description: '',
+        description: String(row[descKey || ''] || ''), // 提取描述供语义匹配
         rawRow: row 
       };
     });
@@ -344,27 +358,32 @@ const saveConfig = async () => {
       <section class="col-span-9 space-y-6">
         <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-8 relative overflow-hidden min-h-[600px]">
           <!-- Table Area / Empty State -->
-          <div v-if="store.bmsPins.length > 0" class="overflow-y-auto max-h-[60vh] rounded-2xl border border-slate-800 bg-slate-900/40">
-            <table class="w-full text-left border-collapse">
-              <thead class="sticky top-0 bg-slate-900">
-                <tr class="bg-slate-800/60 border-b border-slate-800 text-[10px] uppercase text-slate-500 font-bold tracking-widest">
-                  <th v-for="header in bmsHeaders" :key="header" class="px-6 py-4">{{ header }}</th>
-                  <th class="px-6 py-4">匹配状态</th>
-                  <th class="px-6 py-4">EDAC 连接器</th>
-                  <th class="px-6 py-4">EDAC 脚位</th>
+          <div v-if="store.bmsPins.length > 0" class="overflow-x-auto overflow-y-auto max-h-[65vh] rounded-2xl border border-slate-800 bg-slate-900/40 custom-scrollbar">
+            <table class="w-full text-left border-collapse table-auto">
+              <thead class="sticky top-0 bg-slate-900 z-10">
+                <tr class="bg-slate-800/60 border-b border-slate-800 text-[10px] uppercase text-slate-500 font-bold tracking-widest whitespace-nowrap">
+                  <th v-for="header in bmsHeaders" :key="header" class="px-3 py-4 first:pl-6">{{ header }}</th>
+                  <th class="px-3 py-4">匹配状态</th>
+                  <th class="px-3 py-4">EDAC 连接器</th>
+                  <th class="px-3 py-4 last:pr-6">EDAC 脚位</th>
                 </tr>
               </thead>
               <tbody class="divide-y divide-slate-800">
-                <tr v-for="pin in store.bmsPins" :key="pin.id" class="group hover:bg-slate-800/30 text-xs">
-                  <td v-for="header in bmsHeaders" :key="header" class="px-6 py-4 text-slate-300">{{ pin.rawRow?.[header] || '-' }}</td>
-                  <td class="px-6 py-4">
-                    <div v-if="getMatch(pin.id, 'bms')" class="flex items-center gap-1 text-emerald-400">
+                <tr v-for="pin in store.bmsPins" :key="pin.id" class="group hover:bg-slate-800/30 text-[11px] transition-colors">
+                  <td v-for="header in bmsHeaders" :key="header" class="px-3 py-3 text-slate-300 first:pl-6 max-w-[200px] truncate">{{ pin.rawRow?.[header] || '-' }}</td>
+                  <td class="px-3 py-3 whitespace-nowrap">
+                    <div v-if="getMatch(pin.id, 'bms')" class="flex items-center gap-1 text-emerald-400 font-bold">
                       <CheckCircle2 class="w-3 h-3" /> {{ ((getMatch(pin.id, 'bms')?.score || 0) * 100).toFixed(0) }}%
                     </div>
                     <span v-else class="text-slate-600">未匹配</span>
                   </td>
-                  <td class="px-6 py-4 font-bold text-slate-200">{{ getMatchDisplayConnector(pin.id) }}</td>
-                  <td class="px-6 py-4"><span class="px-2 py-1 bg-purple-600 rounded text-white font-mono">{{ getMatchDisplayPin(pin.id) }}</span></td>
+                  <td class="px-3 py-3 font-bold text-slate-200 whitespace-nowrap">{{ getMatchDisplayConnector(pin.id) }}</td>
+                  <td class="px-3 py-3 last:pr-6">
+                    <span v-if="getMatchDisplayPin(pin.id) !== '-'" class="inline-block px-2.5 py-1 bg-purple-600 rounded text-white font-bold font-mono shadow-lg shadow-purple-500/20">
+                      {{ getMatchDisplayPin(pin.id) }}
+                    </span>
+                    <span v-else class="text-slate-700">-</span>
+                  </td>
                 </tr>
               </tbody>
             </table>

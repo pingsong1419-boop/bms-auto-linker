@@ -1,212 +1,207 @@
 import { defineStore } from 'pinia';
-import type { PinDefinition, MatchResult } from '../types/matcher';
-import { CABINET_MAPPING_RULES } from '../rules/matchingRules';
+import { ref, computed } from 'vue';
+import { CABINET_MAPPING_RULES, MATCHING_CONFIG } from '../rules/matchingRules';
 
-export const useMatcherStore = defineStore('matcher', {
-  state: () => ({
-    testerPins: [] as PinDefinition[],
-    bmsPins: [] as PinDefinition[],
-    matches: [] as MatchResult[],
-    isMatching: false,
-  }),
+export interface PinDefinition {
+  id: string;
+  name: string;
+  originalPin: string;
+  type: 'HV' | 'LV' | 'CAN' | 'AI' | 'DI' | 'DO' | 'GND' | 'UNKNOWN';
+  tags: string[];
+  description?: string;
+}
 
-  actions: {
-    setTesterPins(pins: PinDefinition[]) {
-      this.testerPins = pins;
-    },
+export interface BmsPin extends PinDefinition {
+  matchedPinId: string | null;
+  shortedTesterPinIds?: string[];
+  matchScore: number;
+  status: 'UNMATCHED' | 'MATCHED' | 'CONFLICT' | 'MANUAL';
+  description?: string;
+}
 
-    setBmsPins(pins: PinDefinition[]) {
-      this.bmsPins = pins;
-    },
+export interface MatchEntry {
+  bmsPinId: string;
+  testerPinId: string;
+  shortedTesterPinIds?: string[];
+  score: number;
+  reason: string;
+}
 
-    /**
-     * 智能语义匹配核心算法 (已优化支持强制物理规则)
-     */
-    async autoMatch() {
-      this.isMatching = true;
-      this.matches = [];
-      
-      await new Promise(resolve => setTimeout(resolve, 800));
+const semanticKeywords = [
+  { key: 'ntc', keywords: ['temp', 'ntc', '温感', '温度', 'th', 'tsns'] },
+  { key: 'pwr', keywords: ['power', 'pwr', 'source', '电源', 'kl30', 'kl31'] },
+  { key: 'can', keywords: ['can', 'com', '通讯'] },
+  { key: 'relay', keywords: ['relay', 'k', '继电器', '短接', 'link', 'connect'] },
+  { key: 'wake', keywords: ['wake', 'wak', '唤醒', 'kl15'] }
+];
 
-      const newMatches: MatchResult[] = [];
-      const usedTesterPinIds = new Set<string>();
-      const usedBmsPinIds = new Set<string>();
-      
-      // 信号名到已匹配针脚 ID 的缓存，用于实现“同名同锁”
-      const signalNameMatchCache = new Map<string, string>();
+function normalize(name: string): string {
+  if (!name) return '';
+  // 增加对 "-" 符号的清理，统一视为空
+  return name.toLowerCase().replace(/[_\s\-\(\)\/]/g, '').replace(/\+/g, 'plus');
+}
 
-      // 1. 优先执行“物理强规则” (如 V+S 匹配)
-      for (const bPin of this.bmsPins) {
-        if (!bPin.name || bPin.name.trim() === '' || bPin.name === '-') continue;
+function calculateMatchScore(dutName: string, testerName: string): { score: number; reason: string } {
+  const sD = normalize(dutName);
+  const sT = normalize(testerName);
+  
+  // 0. 安全截断：如果机柜端名字为空（normalize 后没字母了），严禁匹配
+  if (!sT || sT.length === 0) return { score: 0, reason: '' };
+  if (!sD || sD.length === 0) return { score: 0, reason: '' };
 
-        for (const rule of CABINET_MAPPING_RULES) {
-          const match = bPin.name.match(rule.sourcePattern);
-          if (match) {
-            const [index, polarity] = rule.transform(match);
-            
-            // 构建需要寻找的目标信号列表 (如 V1-, S1-)
-            const targets = rule.targetTemplates.map(t => 
-              t.replace('$1', index).replace('$2', polarity === '+' ? '+' : '-')
-            );
-
-            const foundTesterPins = this.testerPins.filter(tp => 
-              targets.some(target => tp.name.toUpperCase() === target.toUpperCase()) &&
-              !usedTesterPinIds.has(tp.id)
-            );
-
-            // 如果找到了匹配物理规则的针脚
-            if (foundTesterPins.length > 0) {
-              const mainPinId = foundTesterPins[0].id;
-              newMatches.push({
-                testerPinId: mainPinId,
-                bmsPinId: bPin.id,
-                score: 1.0,
-                status: 'AUTO',
-                reason: `[强规则] ${rule.name}`,
-                shortedTesterPinIds: foundTesterPins.map(p => p.id) // 存储所有短接针脚
-              });
-              
-              foundTesterPins.forEach(tp => usedTesterPinIds.add(tp.id));
-              usedBmsPinIds.add(bPin.id);
-
-              // 同步到同名缓存
-              signalNameMatchCache.set(bPin.name, mainPinId);
-            }
-          }
-        }
-      }
-
-      // 2. 执行常规模糊匹配
-      const semanticKeywords = [
-        { key: '高边', keywords: ['hsd', 'highside', 'condrv'] },
-        { key: '低边', keywords: ['lsd', 'lowside'] },
-        { key: '驱动', keywords: ['output', 'drv', '驱动'] },
-        { key: '温感', keywords: ['ntc', 'temp', '温感', '热敏'] },
-        { key: '短接', keywords: ['短接', 'jump', 'link', '转接'] },
-        { key: '转接', keywords: ['短接', '转接', 'link'] },
-        { key: '电源', keywords: ['power', 'vcc', 'pwr', 'kl30', 'kl31'] },
-        { key: '万用表', keywords: ['dmm', 'multimeter', '万用表'] },
-        { key: '唤醒', keywords: ['wake', '唤醒'] },
-        { key: 'CAN', keywords: ['canh', 'canl', 'can'] },
-      ];
-
-      const normalize = (str: string) => {
-        if (!str) return '';
-        return str.toLowerCase()
-          .replace(/[\s\-_]/g, '')
-          .replace(/\+/g, 'plus')
-          .replace(/\-/g, 'minus');
-      };
-
-      for (const bPin of this.bmsPins) {
-        if (usedBmsPinIds.has(bPin.id)) continue;
-
-        // 强制规则：如果没有信号名称（中文释义为空），则不参与任何匹配
-        if (!bPin.name || bPin.name.trim() === '' || bPin.name === '-') {
-          continue;
-        }
-
-        // 强规则：如果这个信号名之前已经匹配过了，直接复用同一个物理针脚
-        if (signalNameMatchCache.has(bPin.name)) {
-          const reusedTesterPinId = signalNameMatchCache.get(bPin.name)!;
-          
-          // 查找原始匹配以获取可能存在的短接列表
-          const originalMatch = newMatches.find(m => m.testerPinId === reusedTesterPinId);
-
-          newMatches.push({
-            testerPinId: reusedTesterPinId,
-            bmsPinId: bPin.id,
-            score: 1.0,
-            status: 'AUTO',
-            reason: `复用同名信号匹配 (${bPin.name})`,
-            shortedTesterPinIds: originalMatch?.shortedTesterPinIds
-          });
-          usedBmsPinIds.add(bPin.id);
-          continue;
-        }
-
-        let bestMatch: { id: string; score: number; reason: string } | null = null;
-        const sB = normalize(bPin.name);
-
-        for (const tPin of this.testerPins) {
-          // 只有在没被复用规则选中的情况下，才检查针脚是否被占用
-          if (usedTesterPinIds.has(tPin.id)) continue;
-
-          let score = 0;
-          let reason = '';
-
-          const sT = normalize(tPin.name);
-
-          // 1. 完全匹配
-          if (sT === sB) {
-            score = 100;
-            reason = '完全匹配';
-          } 
-          // 2. 包含匹配
-          else if (sT.includes(sB) || sB.includes(sT)) {
-            score = 90;
-            reason = '字符包含匹配';
-          }
-          // 3. 语义关键字匹配
-          else {
-            let semanticHit = 0;
-            semanticKeywords.forEach(entry => {
-              const bmsContent = (bPin.name + (bPin.description || '')).toLowerCase();
-              if (bmsContent.includes(entry.key)) {
-                entry.keywords.forEach(kw => {
-                  if (sT.includes(kw)) semanticHit += 45;
-                });
-              }
-            });
-            
-            if (semanticHit > 0) {
-              score = Math.min(semanticHit, 95);
-              reason = '中文语义关联匹配';
-            }
-          }
-
-          if (score > (bestMatch?.score || 0)) {
-            bestMatch = { id: tPin.id, score, reason };
-          }
-        }
-
-        if (bestMatch && bestMatch.score > 40) {
-          newMatches.push({
-            testerPinId: bestMatch.id,
-            bmsPinId: bPin.id,
-            score: bestMatch.score / 100,
-            status: 'AUTO',
-            reason: bestMatch.reason
-          });
-          usedTesterPinIds.add(bestMatch.id);
-          usedBmsPinIds.add(bPin.id);
-          // 记录此信号名称对应的物理针脚，供后续同名信号复用
-          signalNameMatchCache.set(bPin.name, bestMatch.id);
-        }
-      }
-
-      this.matches = newMatches;
-      this.isMatching = false;
-    },
-
-    clearMatches() {
-      this.matches = [];
-    },
-
-    manualUpdateMatch(testerPinId: string, bmsPinId: string | null) {
-      // 移除旧匹配
-      this.matches = this.matches.filter(m => m.testerPinId !== testerPinId && m.bmsPinId !== bmsPinId);
-      
-      // 添加新匹配
-      if (bmsPinId) {
-        this.matches.push({
-          testerPinId,
-          bmsPinId,
-          score: 1.0,
-          status: 'MANUAL',
-          reason: '人工校准'
-        });
-      }
-    }
+  // 1. 核心碰撞检测：数字必须一致 (防止 1 连到 3)
+  const dNums = dutName.match(/\d+/g) || [];
+  const tNums = testerName.match(/\d+/g) || [];
+  if (dNums.length > 0 && tNums.length > 0) {
+    if (dNums[0] !== tNums[0]) return { score: 0, reason: '数字序号不匹配' };
   }
+
+  // 2. 全字精准匹配
+  if (sD === sT) return { score: 1.0, reason: '全字匹配' };
+
+  // 3. 复合定义拆分匹配
+  if (testerName.includes('/')) {
+    const parts = testerName.split('/').map(p => normalize(p)).filter(p => p.length > 0);
+    if (parts.includes(sD)) return { score: 1.0, reason: '复合定义内匹配' };
+  }
+
+  // 4. 包含关系匹配
+  if (sT.includes(sD) || sD.includes(sT)) return { score: 0.85, reason: '字符包含' };
+
+  // 5. 语义关联匹配
+  let semanticScore = 0;
+  const lowerD = dutName.toLowerCase();
+  const lowerT = testerName.toLowerCase();
+  semanticKeywords.forEach(entry => {
+    const isDMatch = lowerD.includes(entry.key) || entry.keywords.some(k => lowerD.includes(k));
+    const isTMatch = lowerT.includes(entry.key) || entry.keywords.some(k => lowerT.includes(k));
+    if (isDMatch && isTMatch) semanticScore = 0.80;
+  });
+
+  return semanticScore > 0 ? { score: semanticScore, reason: '语义关联' } : { score: 0, reason: '' };
+}
+
+export const useMatcherStore = defineStore('matcher', () => {
+  const bmsPins = ref<BmsPin[]>([]);
+  const testerPins = ref<PinDefinition[]>([]);
+  const isMatching = ref(false);
+  const selectedDutPinId = ref<string | null>(null);
+
+  const setIsMatching = (v: boolean) => { isMatching.value = v; };
+  const setBmsPins = (p: any[]) => { bmsPins.value = p.map((pin, i) => ({ ...pin, id: pin.id || `bms_${i}`, matchedPinId: null, shortedTesterPinIds: [], matchScore: 0, status: 'UNMATCHED' })); };
+  const setTesterPins = (p: PinDefinition[]) => { testerPins.value = p; };
+  const clearMatches = () => { bmsPins.value.forEach(p => { p.matchedPinId = null, p.shortedTesterPinIds = [], p.matchScore = 0, p.status = 'UNMATCHED'; }); };
+
+  const matches = computed<MatchEntry[]>(() => {
+    return bmsPins.value
+      .filter(p => p.matchedPinId || p.shortedTesterPinIds?.length)
+      .map(p => ({
+        bmsPinId: p.id,
+        testerPinId: p.matchedPinId || (p.shortedTesterPinIds?.[0] || ''),
+        shortedTesterPinIds: p.shortedTesterPinIds,
+        score: p.matchScore,
+        reason: p.description || '自动匹配'
+      }));
+  });
+
+  async function autoMatch() {
+    setIsMatching(true);
+    await new Promise(r => setTimeout(r, 300));
+
+    // 强化过滤逻辑
+    const activeTesterPins = testerPins.value.filter(tp => {
+      if (!MATCHING_CONFIG.filterEmptyTesterPins) return true;
+      if (!tp.name) return false;
+      // 只要 normalize 之后没有有效字符了，就认为是无效针脚
+      return normalize(tp.name).length > 0;
+    });
+
+    bmsPins.value.forEach(dutPin => {
+      // 0. 通用 "&" 并联处理
+      const comboSource = (dutPin.description || dutPin.name);
+      if (MATCHING_CONFIG.enableUniversalAmpersandParallelMatching && comboSource.includes('&')) {
+        const parts = comboSource.split('&').map(p => p.trim()).filter(p => p.length > 0);
+        const foundIds: string[] = [];
+        parts.forEach(part => {
+          const found = activeTesterPins.find(tp => {
+            const sn = normalize(tp.name);
+            const sp = normalize(part);
+            return sn && sp && (sn === sp || sn.includes(sp) || sp.includes(sn));
+          });
+          if (found && !foundIds.includes(found.id)) foundIds.push(found.id);
+        });
+        if (foundIds.length > 0) {
+          dutPin.matchedPinId = foundIds[0];
+          dutPin.shortedTesterPinIds = foundIds.length > 1 ? foundIds : undefined;
+          dutPin.matchScore = 1.0;
+          dutPin.status = 'MATCHED';
+          dutPin.description = `符号并联 [${foundIds.length}路]`;
+          return;
+        }
+      }
+
+      // 1. 硬件强规则
+      for (const rule of CABINET_MAPPING_RULES) {
+        const m = dutPin.name.match(rule.sourcePattern);
+        if (m) {
+          const [index, pol] = rule.transform(m);
+          const targets: string[] = [];
+          rule.targetTemplates.forEach(tpl => {
+            const tName = tpl.replace('$1', index).replace('$2', pol);
+            const found = activeTesterPins.find(tp => normalize(tp.name) === normalize(tName));
+            if (found) targets.push(found.id);
+          });
+          if (targets.length > 0) {
+            dutPin.matchedPinId = targets[0];
+            dutPin.shortedTesterPinIds = targets.length > 1 ? targets : undefined;
+            dutPin.matchScore = 1.0;
+            dutPin.status = 'MATCHED';
+            dutPin.description = `强规则 [${index}${pol}]`;
+            return;
+          }
+        }
+      }
+
+      // 2. 采样数字强对齐
+      if (/^(B|Cell|C)\d+/i.test(dutPin.name)) {
+        const dNum = dutPin.name.match(/\d+/);
+        if (dNum) {
+          const found = activeTesterPins.find(tp => {
+            const tNum = tp.name.match(/\d+/);
+            return tNum && tNum[0] === dNum[0] && /^(B|V|S|Cell)\d+/i.test(tp.name);
+          });
+          if (found) {
+            dutPin.matchedPinId = found.id;
+            dutPin.matchScore = 0.95;
+            dutPin.status = 'MATCHED';
+            dutPin.description = '单体数字对齐';
+            return;
+          }
+        }
+      }
+
+      // 3. 全量匹配扫描
+      let best = { id: '', score: 0, reason: '' };
+      activeTesterPins.forEach(tp => {
+        const result = calculateMatchScore(dutPin.name, tp.name);
+        if (result.score > best.score) {
+          best = { id: tp.id, score: result.score, reason: result.reason };
+        }
+      });
+
+      if (best.score >= (MATCHING_CONFIG.minScoreThreshold || 0.4)) {
+        dutPin.matchedPinId = best.id;
+        dutPin.matchScore = best.score;
+        dutPin.status = 'MATCHED';
+        dutPin.description = best.reason;
+      }
+    });
+
+    setIsMatching(false);
+  }
+
+  return { bmsPins, testerPins, matches, isMatching, matchedCount: computed(() => bmsPins.value.filter(p => p.status === 'MATCHED' || p.status === 'MANUAL').length), setBmsPins, setTesterPins, setIsMatching, clearMatches, autoMatch, updateManualMatch: (d, t) => {
+    const p = bmsPins.value.find(p => p.id === d);
+    if (p) { p.matchedPinId = t; p.status = t ? 'MANUAL' : 'UNMATCHED'; }
+  }};
 });

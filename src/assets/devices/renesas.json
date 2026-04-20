@@ -111,7 +111,7 @@
   },
   {
     "id": "md_pin_17",
-    "name": "PWOER1-/电源1-",
+    "name": "POWER1-/电源1-",
     "originalPin": "N",
     "type": "GND",
     "tags": [
@@ -121,7 +121,7 @@
   },
   {
     "id": "md_pin_18",
-    "name": "PWOER2-/电源2-",
+    "name": "POWER2-/电源2-",
     "originalPin": "P",
     "type": "GND",
     "tags": [
@@ -131,7 +131,7 @@
   },
   {
     "id": "md_pin_19",
-    "name": "PWOER3-/电源3-",
+    "name": "POWER3-/电源3-",
     "originalPin": "R",
     "type": "GND",
     "tags": [
@@ -141,7 +141,7 @@
   },
   {
     "id": "md_pin_20",
-    "name": "PWOER4-/电源3-",
+    "name": "POWER4-/电源4-",
     "originalPin": "S",
     "type": "GND",
     "tags": [
@@ -2141,7 +2141,7 @@
   },
   {
     "id": "md_pin_220",
-    "name": "PWOER1-",
+    "name": "POWER1-",
     "originalPin": "EJ",
     "type": "GND",
     "tags": [

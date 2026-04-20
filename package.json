@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync": "node scratch/final_sync.cjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.2",
