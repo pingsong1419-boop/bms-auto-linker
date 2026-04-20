@@ -56,6 +56,36 @@ export default defineConfig({
                 res.end(JSON.stringify({ success: false, error: String(e) }));
               }
             });
+          } else if (req.url === '/api/save-config' && req.method === 'POST') {
+            let body = '';
+            req.on('data', chunk => { body += chunk; });
+            req.on('end', () => {
+              try {
+                const payload = JSON.parse(body);
+                const { deviceId, configData } = payload;
+                if (!deviceId) throw new Error('未提供设备 ID');
+                
+                const filePath = path.resolve(__dirname, `src/assets/devices/${deviceId}.json`);
+                // 确保目录存在
+                const dir = path.dirname(filePath);
+                if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+                
+                fs.writeFileSync(filePath, JSON.stringify(configData, null, 2), 'utf-8');
+                
+                // 为了向后兼容，如果修改的是 renesas，同步更新根目录文件
+                if (deviceId === 'renesas') {
+                   const legacyPath = path.resolve(__dirname, 'src/assets/tester_interface.json');
+                   fs.writeFileSync(legacyPath, JSON.stringify(configData, null, 2), 'utf-8');
+                }
+
+                console.log(`[API] 设备 [${deviceId}] 配置已保存至: ${filePath}`);
+                res.setHeader('Content-Type', 'application/json');
+                res.end(JSON.stringify({ success: true }));
+              } catch (e: any) {
+                res.statusCode = 500;
+                res.end(JSON.stringify({ success: false, error: e.message }));
+              }
+            });
           } else {
             next();
           }

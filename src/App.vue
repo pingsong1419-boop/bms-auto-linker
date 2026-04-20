@@ -10,7 +10,8 @@ import {
   History,
   Settings2,
   Share2,
-  Trash2
+  Trash2,
+  HardDrive
 } from 'lucide-vue-next';
 
 import * as XLSX from 'xlsx';
@@ -22,16 +23,43 @@ const activeStep = ref(1);
 const bmsFileInput = ref<HTMLInputElement | null>(null);
 const bmsHeaders = ref<string[]>(['连接器', '脚位', '信号定义', '功能描述']);
 
-onMounted(() => {
-  const filteredTesterPins = (testerData as any[]).filter(p => p.originalPin !== '脚位');
-  store.setTesterPins(filteredTesterPins);
+const availableDevices = [
+  { id: 'renesas', name: '瑞萨-BMS 功能测试柜' },
+  { id: 'custom_v2', name: '通用型测试柜 V2 (预留)' }
+];
 
-  store.setBmsPins([
-    { id: 'b1', name: 'POWER+', type: 'UNKNOWN' as PinType, tags: ['CON8'], description: '主电源正极 (Pin 2, 18)', rawRow: { '连接器': 'CON8', '脚位': '2, 18', '信号定义': 'POWER+', '功能描述': '主电源正极' } },
-    { id: 'b2', name: 'PWOER1-', type: 'UNKNOWN' as PinType, tags: ['CON8'], description: '主电源负极 (Pin 1, 17)', rawRow: { '连接器': 'CON8', '脚位': '1, 17', '信号定义': 'PWOER1-', '功能描述': '主电源负极' } },
-    { id: 'b3', name: 'WAKE1', type: 'UNKNOWN' as PinType, tags: ['CON8'], description: '唤醒信号 1 (Pin 19)', rawRow: { '连接器': 'CON8', '脚位': '19', '信号定义': 'WAKE1', '功能描述': '唤醒信号 1' } },
-    { id: 'b5', name: 'B1+', type: 'UNKNOWN' as PinType, tags: ['CELL'], description: '电芯1正极采样 (需要V1+/S1+)', rawRow: { '连接器': 'CELL', '脚位': 'A1', '信号定义': 'B1+', '功能描述': '电芯1正极采样' } },
-  ]);
+const selectedDeviceId = ref('renesas');
+
+const loadDeviceConfig = async () => {
+  store.setIsMatching(true); // 临时借用 loading 状态
+  try {
+    let rawData;
+    // 环境兼容：优先尝试从 devices 目录读取，如果失败且为 renesas 则读取默认导入的 testerData
+    if (selectedDeviceId.value === 'renesas') {
+      rawData = testerData;
+    } else {
+      const response = await fetch(`/src/assets/devices/${selectedDeviceId.value}.json`);
+      if (!response.ok) throw new Error(`设备 [${selectedDeviceId.value}] 定义文件不存在`);
+      rawData = await response.json();
+    }
+
+    const filteredTesterPins = (rawData as any[]).filter(p => p.originalPin !== '脚位');
+    store.setTesterPins(filteredTesterPins);
+    console.log(`[UI] 已加载设备定义: ${selectedDeviceId.value}`);
+  } catch (err: any) {
+    store.setTesterPins([]);
+    alert(`加载配置失败: ${err.message}`);
+  } finally {
+    store.setIsMatching(false);
+    store.clearMatches();
+  }
+};
+
+onMounted(() => {
+  loadDeviceConfig();
+
+  // 默认启动时清空数据，等待用户手动导入
+  store.setBmsPins([]);
 });
 
 const triggerBmsImport = () => {
@@ -111,7 +139,7 @@ const handleExportExcel = async () => {
       const match = getMatch(pin.id, 'bms');
       return {
         name: pin.name,
-        rawRow: JSON.parse(JSON.stringify(pin.rawRow)), // 深克隆还原标准对象
+        rawRow: JSON.parse(JSON.stringify(pin.rawRow)),
         match: match ? {
           score: match.score,
           display_pin: getMatchDisplayPin(pin.id),
@@ -193,6 +221,52 @@ const getMatchDisplayConnector = (id: string) => {
   }
   return getTesterPin(match.testerPinId)?.tags[0] || '-';
 };
+
+// 全局配置编辑器逻辑
+const isConfigModalOpen = ref(false);
+const isSavingConfig = ref(false);
+const configPins = ref<any[]>([]);
+
+const openConfig = () => {
+  // 深度克隆当前设备针脚数据进行编辑
+  configPins.value = JSON.parse(JSON.stringify(store.testerPins));
+  isConfigModalOpen.value = true;
+};
+
+const closeConfig = () => {
+  isConfigModalOpen.value = false;
+};
+
+const saveConfig = async () => {
+  if (isSavingConfig.value) return;
+  
+  isSavingConfig.value = true;
+  try {
+    const response = await fetch('/api/save-config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        deviceId: selectedDeviceId.value,
+        configData: configPins.value
+      })
+    });
+    
+    if (response.ok) {
+      alert(`✅ 设备 [${selectedDeviceId.value}] 接口定义保存成功！修改已同步回写。`);
+      // 更新当前内存中的数据
+      store.setTesterPins(configPins.value);
+      store.clearMatches(); 
+      closeConfig();
+    } else {
+      const error = await response.json();
+      throw new Error(error.error || '保存失败');
+    }
+  } catch (err: any) {
+    alert(`❌ 保存失败: ${err.message}`);
+  } finally {
+    isSavingConfig.value = false;
+  }
+};
 </script>
 
 <template>
@@ -212,6 +286,12 @@ const getMatchDisplayConnector = (id: string) => {
 
       <div class="flex items-center gap-4">
         <button 
+          @click="openConfig"
+          class="flex items-center gap-2 px-3 py-1.5 border border-slate-700 rounded-lg text-xs font-medium hover:bg-slate-800 transition-colors text-slate-400 hover:text-white"
+        >
+          <Settings2 class="w-3.5 h-3.5" /> 全局配置
+        </button>
+        <button 
           @click="handleExportExcel"
           :disabled="isExporting"
           class="bg-purple-600 hover:bg-purple-500 disabled:bg-slate-800 disabled:text-slate-500 text-white px-4 py-1.5 rounded-lg text-sm font-semibold transition-all flex items-center gap-2 group"
@@ -225,6 +305,22 @@ const getMatchDisplayConnector = (id: string) => {
 
     <main class="p-8 max-w-[1600px] mx-auto grid grid-cols-12 gap-8">
       <aside class="col-span-3 space-y-6">
+        <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6">
+          <h2 class="text-sm font-semibold mb-4 flex items-center gap-2 text-slate-300">
+            <HardDrive class="w-4 h-4 text-blue-400" /> 测试设备选择
+          </h2>
+          <select 
+            v-model="selectedDeviceId" 
+            @change="loadDeviceConfig"
+            class="w-full bg-slate-950 border border-slate-700 rounded-lg px-3 py-3 text-sm text-slate-200 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all cursor-pointer"
+          >
+            <option v-for="dev in availableDevices" :key="dev.id" :value="dev.id">{{ dev.name }}</option>
+          </select>
+          <p class="mt-3 text-[10px] text-slate-500 leading-relaxed italic">
+            提示：切换设备将自动清空当前的匹配方案。
+          </p>
+        </div>
+
         <div class="bg-slate-900/50 border border-slate-800 rounded-2xl p-6">
           <h2 class="text-sm font-semibold mb-4 flex items-center gap-2 text-slate-300">
             <Upload class="w-4 h-4 text-purple-400" /> 数据导入
@@ -247,7 +343,8 @@ const getMatchDisplayConnector = (id: string) => {
 
       <section class="col-span-9 space-y-6">
         <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-8 relative overflow-hidden min-h-[600px]">
-          <div class="overflow-y-auto max-h-[60vh] rounded-2xl border border-slate-800 bg-slate-900/40">
+          <!-- Table Area / Empty State -->
+          <div v-if="store.bmsPins.length > 0" class="overflow-y-auto max-h-[60vh] rounded-2xl border border-slate-800 bg-slate-900/40">
             <table class="w-full text-left border-collapse">
               <thead class="sticky top-0 bg-slate-900">
                 <tr class="bg-slate-800/60 border-b border-slate-800 text-[10px] uppercase text-slate-500 font-bold tracking-widest">
@@ -273,6 +370,16 @@ const getMatchDisplayConnector = (id: string) => {
             </table>
           </div>
 
+          <div v-else class="h-full flex flex-col items-center justify-center py-20 text-center animate-in fade-in zoom-in duration-700">
+            <div class="w-20 h-20 bg-slate-900 rounded-full flex items-center justify-center mb-6 border border-slate-800 shadow-inner">
+               <Upload class="w-8 h-8 text-slate-600" />
+            </div>
+            <h3 class="text-lg font-bold text-slate-400 mb-2">暂无匹配数据</h3>
+            <p class="text-sm text-slate-500 max-w-sm">
+              请通过左侧侧边栏导入“BMS 引脚表”来开始智能匹配。
+            </p>
+          </div>
+
           <Transition name="slide-up">
             <div v-if="activeStep === 2" class="absolute inset-x-0 bottom-0 py-4 bg-purple-600/20 border-t border-purple-500/30 flex items-center justify-center gap-3 backdrop-blur-xl">
               <CheckCircle2 class="w-5 h-5 text-purple-400" />
@@ -285,6 +392,63 @@ const getMatchDisplayConnector = (id: string) => {
         </div>
       </section>
     </main>
+
+    <!-- 全局配置模态框 -->
+    <Transition name="fade">
+      <div v-if="isConfigModalOpen" class="fixed inset-0 z-[100] flex items-center justify-center p-8 bg-slate-950/80 backdrop-blur-md">
+        <div class="bg-slate-900 border border-slate-800 w-full max-w-6xl max-h-[90vh] rounded-3xl shadow-2xl flex flex-col overflow-hidden animate-in zoom-in duration-300">
+          <div class="p-6 border-b border-slate-800 flex items-center justify-between bg-slate-900/50">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 bg-blue-600/20 rounded-xl flex items-center justify-center border border-blue-500/30">
+                <Settings2 class="w-5 h-5 text-blue-400" />
+              </div>
+              <div>
+                <h3 class="text-xl font-bold text-white">设备接口定义编辑器</h3>
+                <p class="text-xs text-slate-500">修改后将直接保存至本地 assets 配置文件</p>
+              </div>
+            </div>
+            <div class="flex items-center gap-3">
+              <button @click="closeConfig" class="px-4 py-2 text-sm font-medium text-slate-400 hover:text-white transition-colors">取消</button>
+              <button 
+                @click="saveConfig" 
+                :disabled="isSavingConfig"
+                class="px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-sm font-bold shadow-lg shadow-blue-500/20 flex items-center gap-2 transition-all"
+              >
+                <div v-if="isSavingConfig" class="w-4 h-4 border-2 border-white/20 border-t-white rounded-full animate-spin"></div>
+                {{ isSavingConfig ? '正在保存...' : '保存更改' }}
+              </button>
+            </div>
+          </div>
+
+          <div class="flex-1 overflow-y-auto p-6">
+            <table class="w-full text-left border-collapse">
+              <thead class="sticky top-0 bg-slate-900">
+                <tr class="text-[10px] uppercase text-slate-500 font-bold tracking-widest border-b border-slate-800">
+                  <th class="px-4 py-3">信号名称</th>
+                  <th class="px-4 py-3">物理针脚(Pin)</th>
+                  <th class="px-4 py-3">标签(多个用逗号隔开)</th>
+                  <th class="px-4 py-3">操作</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-800">
+                <tr v-for="pin in configPins" :key="pin.id" class="group hover:bg-slate-800/30 transition-colors">
+                  <td class="px-4 py-2">
+                    <input v-model="pin.name" class="w-full bg-slate-800 border border-slate-700 rounded px-2 py-1 text-xs text-white focus:border-blue-500 outline-none" />
+                  </td>
+                  <td class="px-4 py-2">
+                    <input v-model="pin.originalPin" class="w-full bg-slate-800 border border-slate-700 rounded px-2 py-1 text-xs text-white focus:border-blue-500 outline-none" />
+                  </td>
+                  <td class="px-4 py-2">
+                    <input :value="pin.tags.join(',')" @input="(e: any) => pin.tags = e.target.value.split(',')" class="w-full bg-slate-800 border border-slate-700 rounded px-2 py-1 text-xs text-white focus:border-blue-500 outline-none" />
+                  </td>
+                  <td class="px-4 py-2 text-center text-slate-600 italic text-[10px]">自动保存 ID: {{ pin.id }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </Transition>
   </div>
 </template>
 
