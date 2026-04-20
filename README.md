@@ -1,5 +1,36 @@
-# Vue 3 + TypeScript + Vite
+# BMS测试设备智能接口匹配软件 (BMS-Auto-Linker)
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+本项目旨在通过智能化算法，将 BMS DUT（被测物）的信号定义与测试柜机（如瑞萨-BMS功能测试柜）的硬件接口进行精准、快速的匹配，生成线束对照关系。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 核心特性 (V2.0 升级版)
+
+### 1. 智能化匹配引擎 (Matching Engine)
+*   **三重匹配深度**：
+    *   **Layer 1 - 物理硬规则**：针对单体采样信号（V/S/B），根据电压采集原理实现多通道自动并联匹配。
+    *   **Layer 2 - 数字序号对齐**：强制性校验！BMS 端的 `LINK1` 绝不会误匹配到机柜端的 `短接3`。数字指纹不匹配的分数为 0。
+    *   **Layer 3 - 语义关联识别**：内置专业工业信号字典（NTC, CAN, PWR, WAKE, KL30/31等），支持跨语言、跨缩写的精准识别。
+
+### 2. 通用符号并联逻辑 (`&` Logic)
+*   **符号驱动**：只要信号描述中包含 `&` 符号（例如：`PWR- & SGND`），引擎会自动将其拆解并搜寻多个硬件针脚，实现真实的物理并接锁定。
+*   **可视化反馈**：界面将直接显示为 `主机NTC1- & 主机NTC2-`，代表多路并联。
+
+### 3. 可配置化规则系统 (Standard Rules)
+*   **透明化配置**：所有的匹配参数、过滤策略、并联开关均在 `src/rules/matchingRules.ts` 中集中管理。
+*   **无效针脚拦截**：自动识别并过滤台账中无定义的空位置（如 `-`、`/`），确保匹配池的纯净。
+
+## 🛠 开发与同步流程
+
+1.  **数据同步**：
+    *   编辑 `device-interfaces/cabinet_ledger.csv` 更新台账。
+    *   运行 `npm run sync` 将台账同步至前端 JSON 资产。
+2.  **启动软件**：
+    *   运行 `npm run dev` 启动 Vite 开发服务器。
+3.  **匹配与导出**：
+    *   导入 BMS 端的 Excel/CSV 接口定义。
+    *   点击“智能匹配”获取结果。
+    *   支持手动调整冲突或未命中的信号，并导出线束对照表。
+
+## 📈 设计原则
+*   **安全第一**：采样线、电源线必须序号严格锁定，杜绝错配导致的设备损坏。
+*   **高度灵活**：非核心信号依赖语义识别，最大程度兼容不同 BMS 厂家的命名规范。
+*   **零 placeholder**：系统不使用占位数据，所有匹配均基于真实的硬件台账库。
